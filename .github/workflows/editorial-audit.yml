@@ -1,0 +1,28 @@
+name: Full site copy audit
+on:
+  pull_request:
+    paths:
+      - 'docs/content/**'
+      - 'scripts/audit-copy.mjs'
+      - '.github/workflows/editorial-audit.yml'
+      - '**/*.html'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  editorial-inventory:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Audit all bilingual editorial files and corresponding HTML
+        run: node scripts/audit-copy.mjs editorial-audit-output
+      - name: Upload sitewide report (Markdown CSV JSON)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: kabin-sitewide-copy-audit
+          path: editorial-audit-output/
+          retention-days: 30
