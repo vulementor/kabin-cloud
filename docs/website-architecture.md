@@ -44,3 +44,11 @@
 - Marketplace, publishing, billing, APIs and SDK are conceptual editorial material, not working commerce or product integrations.
 - EN company display: K’UNITY Green Technology Investment Company Limited (translation pending certificate verification); VI: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY.
 - Contact info@kabin.cloud; telephone +84 974 744 299.
+
+## Browser QA correction / 2026-10-08
+
+- Keep global Header unchanged. On every Vietnamese informational child page, the Contact CTA goes to `/vi/contact/`; Back home and final Home CTA go to `/vi/`.
+- Homepage and Platform EN/VI now include Privacy, Terms and Cookies footer navigation.
+- Official UI company navigation label: `Company` (EN), `Công ty` (VI); prose may use `doanh nghiệp` contextually.
+- Platform hero back link and section label must occupy separate rows, including at 390px mobile.
+- Automated static validator checks these locale boundaries and footer links, in addition to existing header invariants.

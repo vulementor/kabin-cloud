@@ -54,3 +54,8 @@ h1,h2,h3,p{margin-top:0}.hero h1{font-size:clamp(56px,5.25vw,88px);letter-spacin
 /* Main navigation is fixed across ALL pages. Secondary page links belong to content, not header. */
 @media(min-width:891px){.desktop-nav{gap:15px}.desktop-nav a{font-size:11px}}
 @media(min-width:891px) and (max-width:1260px){.site-header .header-cta{display:none}}
+
+/* Shared legal footer navigation on Homepage and Platform. */
+.footer-legal{display:flex;gap:15px;flex-wrap:wrap;align-items:center}
+.footer-legal a{font-size:11px;color:#54775f;font-weight:700;text-decoration:none}
+.footer-legal a:hover{text-decoration:underline;text-underline-offset:3px}
