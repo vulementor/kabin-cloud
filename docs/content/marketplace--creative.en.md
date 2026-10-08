@@ -2,48 +2,72 @@
 page: marketplace/creative
 locale: en
 route: /marketplace/creative/
-status: published-informational
+status: rewritten-review-pending
+narrative: SSS + evidence-led
 content_type: website
 ---
 
-# Media & Creative
+# A video is the output. The production trail is the system.
 
-Discover how visual, audio and video production can become coordinated workflows.
+Scripts, frames, voice, captions and exports are not interchangeable files. They are related decisions that must stay aligned from brief to review.
 
-## Positioning
-A future directory of reusable capabilities for real work.
+## MARKETPLACE / MEDIA & CREATIVE
 
-## Content pillars
-### 1. Creative briefs
-Connect objectives to production requirements.
+**Positioning and availability:** Concept production pipeline. No online media generator is offered on this page.
 
-### 2. Asset pipelines
-Coordinate image, voice, subtitle and video stages.
+## When every revision breaks another asset
 
-### 3. Quality checkpoints
-Review outputs before distribution.
+The client changes a headline after the voiceover was recorded. The editor has two cuts, the subtitle file points at the older script, and the approved product claim is buried in chat. A one-click generator does not resolve the handoff between these versions. The expensive part is discovering which output still corresponds to the approved story.
 
-## Related navigation
-- [Discover Capacity](/marketplace/)
-- [AI Agents](/marketplace/agents/)
-- [Workflow Capacities](/marketplace/workflows/)
-- [Tools & APIs](/marketplace/tools/)
-- [Browser & Computer](/marketplace/automation/)
-- [Data & Research](/marketplace/data/)
-- [Publish a Capacity](/marketplace/publish/)
-- [Provider Program](/marketplace/providers/)
+**Differentiation:** Treat creative work as a sequence of linked artifacts.
 
-## Contact
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+## From creative brief to review-ready packet
 
-## Corporate identity
-- Brand: Kabin Agent
-- Displayed operator: K’UNITY Green Technology Investment Company Limited
-- Vietnamese registered name provided by operator: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- English display translation pending certificate verification: K’UNITY Green Technology Investment Company Limited
+### 1. Freeze the brief
 
-## Editorial constraints
-- Informational website only: does not provide capacity purchasing, accounts, production API or payments.
-- No unverified performance metrics, endorsements, partnerships or certifications.
-- English company display translation remains subject to confirmation against official incorporation records.
+Identify the approved story, audience, claims and intended formats.
+
+### 2. Track dependencies
+
+Connect storyboard, images, audio, captions and cuts to source versions.
+
+### 3. Validate media
+
+Check dimensions, duration, readable captions and artifact integrity.
+
+### 4. Review before distribution
+
+Keep visual and claim approval separate from render completion.
+
+## Illustrative case: one 30-second launch video, two channel cuts.
+
+The team approves an eleven-scene storyboard and a final script. Separate creative capacities might prepare frames and voice, while a routine assembles timelines, captions and channel exports. If Scene 7 changes, the workflow should flag dependent audio, caption and render artifacts. The reviewer sees the revised packet before any external publication.
+
+## What must be traceable in a media workflow?
+
+### Which version was approved?
+
+Keep a stable brief and explicit revision identity for every release packet.
+
+### What is really media-ready?
+
+A file exists, can be probed, meets format rules and is linked to the correct story.
+
+### Can it publish by itself?
+
+External distribution must use authorized controls and preserve existing receipts.
+
+## Design the pipeline around the approval, not just the render.
+
+Share one production brief, target channels and your biggest revision bottleneck to explore the right workflow boundaries.
+
+- CTA: info@kabin.cloud
+- Next category: /marketplace/agents/
+- Telephone: 0974744299
+
+## Editorial disclaimer
+
+The storyboard example is illustrative; no live rendering, media credits or posting service is exposed here.
+
+Operating entity (VI): CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY.
+English display translation: K’UNITY Green Technology Investment Company Limited (unverified against business certificate).

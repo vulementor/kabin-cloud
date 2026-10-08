@@ -2,48 +2,72 @@
 page: marketplace/automation
 locale: en
 route: /marketplace/automation/
-status: published-informational
+status: rewritten-review-pending
+narrative: PAS + trust design
 content_type: website
 ---
 
-# Browser & Computer
+# The browser is a workplace, not a blind macro.
 
-Design supported interactions across existing web and desktop tools.
+Some operations have no suitable API. When a workflow enters a web or desktop interface, it needs visible targets, strict permissions and proof of completion.
 
-## Positioning
-A future directory of reusable capabilities for real work.
+## MARKETPLACE / BROWSER & COMPUTER
 
-## Content pillars
-### 1. Semantic navigation
-Use stable interface signals where available.
+**Positioning and availability:** Operational principles only. This page does not launch or control a browser session.
 
-### 2. Controlled actions
-Enforce permissions and limits.
+## A click is not a confirmed result
 
-### 3. Evidence capture
-Record results for reconciliation.
+The system finds a Publish button and presses it. The page freezes. Did the upload fail, succeed, or remain pending? Clicking again may create a duplicate. Screen automation without state awareness can turn an innocent timeout into an irreversible external action.
 
-## Related navigation
-- [Discover Capacity](/marketplace/)
-- [AI Agents](/marketplace/agents/)
-- [Workflow Capacities](/marketplace/workflows/)
-- [Tools & APIs](/marketplace/tools/)
-- [Media & Creative](/marketplace/creative/)
-- [Data & Research](/marketplace/data/)
-- [Publish a Capacity](/marketplace/publish/)
-- [Provider Program](/marketplace/providers/)
+**Differentiation:** An interface workflow must separate observation, action and reconciliation.
 
-## Contact
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+## The browser operation decision boundary
 
-## Corporate identity
-- Brand: Kabin Agent
-- Displayed operator: K’UNITY Green Technology Investment Company Limited
-- Vietnamese registered name provided by operator: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- English display translation pending certificate verification: K’UNITY Green Technology Investment Company Limited
+### 1. Prefer a supported API
 
-## Editorial constraints
-- Informational website only: does not provide capacity purchasing, accounts, production API or payments.
-- No unverified performance metrics, endorsements, partnerships or certifications.
-- English company display translation remains subject to confirmation against official incorporation records.
+Use documented operations when the service makes them available.
+
+### 2. Inspect the interface
+
+Bind actions to the correct page, item and verified intent.
+
+### 3. Pause for permission
+
+Require explicit approval before publishing, spending or deleting.
+
+### 4. Verify outcomes
+
+Use existing receipts and page evidence before any retry.
+
+## Illustrative case: an uncertain content submission.
+
+A team prepares a social post and receives permission to submit it. The browser opens the exact target and checks the content payload. After submit, the network connection drops. The correct next step is read-only reconciliation of the already attempted operation, not another click on Publish. If evidence remains inconclusive, hand control to a person.
+
+## Why this is not a generic screen-recording bot
+
+### What can it observe?
+
+Only authorized pages and explicit task context, not unrelated user data.
+
+### When does it stop?
+
+If source identity, selected account or critical action intent is uncertain.
+
+### How does it recover?
+
+Inspect durable records and existing external state before deciding on another action.
+
+## Show us the handoff your API cannot handle.
+
+Describe the interface, task and approval boundary. We'll discuss a bounded automation design without assuming unrestricted computer access.
+
+- CTA: info@kabin.cloud
+- Next category: /marketplace/workflows/
+- Telephone: 0974744299
+
+## Editorial disclaimer
+
+No live browser worker, credential collection or automated third-party publishing is provided by this informational page.
+
+Operating entity (VI): CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY.
+English display translation: K’UNITY Green Technology Investment Company Limited (unverified against business certificate).
