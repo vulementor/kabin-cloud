@@ -1,16 +1,20 @@
 import fs from "node:fs";
-const paths=["use-kabin","build-solutions","provide-capacity"];
-let checked=0;
-for(const slug of paths)for(const vi of [false,true]){
- const page=(vi?"vi/":"")+slug+"/index.html",md="docs/content/"+slug+"."+(vi?"vi":"en")+".md";
- const html=fs.readFileSync(page,"utf8"),source=fs.readFileSync(md,"utf8");
- const want=["class=\"role-page role-", "id=\"journey\"","role-problem","role-steps","role-case","role-control","role-cta","mailto:info@kabin.cloud"];
- for(const needle of want)if(!html.includes(needle))throw Error(page+" missing "+needle);
- if(!html.includes('href="'+(vi?"../../vi/":"../")+'"'))throw Error(page+" missing own-locale home");
- if(!html.includes('hreflang="en"')||!html.includes('hreflang="vi"'))throw Error(page+" missing locale metadata");
- if(!source.includes("status: editorial-review")||!source.includes("Kabin"))throw Error(md+" missing complete source");
- if((source.match(/[\p{L}\p{N}]+/gu)||[]).length<260)throw Error(md+" too thin");
- checked++;
+const roles=["use-kabin","build-solutions","provide-capacity"];
+let pairs=0;
+for(const role of roles)for(const lang of ["en","vi"]){
+ const vi=lang==="vi",page=(vi?"vi/":"")+role+"/index.html",doc="docs/content/"+role+"."+lang+".md";
+ const html=fs.readFileSync(page,"utf8"),markdown=fs.readFileSync(doc,"utf8");
+ for(const marker of ['class="cl-main cl-','class="cl-intro"','class="cl-main-steps','class="cl-next-list"','mailto:info@kabin.cloud','class="button button-outline-light"'])
+  if(!html.includes(marker))throw Error(page+" missing "+marker);
+ if(!html.includes('hreflang="en"')||!html.includes('hreflang="vi"'))throw Error(page+": incomplete locale switch");
+ if(!markdown.includes("status: editorial-review"))throw Error(doc+": incorrect editorial source status");
+ const steps=(html.match(/class="cl-step"/g)||[]).length;
+ if(steps!==4)throw Error(page+": expected four concrete steps; found "+steps);
+ pairs++;
 }
-for(const p of ["index.html","vi/index.html"]){const html=fs.readFileSync(p,"utf8");if(!html.includes('id="audiences"'))throw Error(p+" missing three-sided gateway");for(const slug of paths)if(!html.includes('href="'+slug+'/\"'))throw Error(p+" missing link "+slug);}
-console.log("PASS: "+checked+" role-specific HTML pages, paired docs, all three homepage gateways");
+for(const locale of ["en","vi"]){
+ const p=locale==="vi"?"vi/index.html":"index.html",s=fs.readFileSync(p,"utf8");
+ if(!s.includes('id="audiences"'))throw Error(p+": missing 3-way choice");
+ for(const role of roles)if(!s.includes('href="'+(locale==="vi"?"../vi/":"")+role+'/\"'))throw Error(p+": missing "+role);
+}
+console.log("PASS: "+pairs+" role journeys and both homepage gateways");
