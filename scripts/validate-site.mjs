@@ -94,8 +94,8 @@ for(const source of pages) {
  }
  if(!html.includes('mailto:info@kabin.cloud')||!html.includes("974"))failures.push(source+": missing contact");
 }
-if(pages.length!==108)failures.push("Expected 108 HTML pages, found "+pages.length);
+if(pages.length!==114)failures.push("Expected 114 HTML pages, found "+pages.length);
 const sitemap=fs.readFileSync("sitemap.xml","utf8");
-if((sitemap.match(/<url>/g)||[]).length!==108)failures.push("Sitemap entry count mismatch");
+if((sitemap.match(/<url>/g)||[]).length!==114)failures.push("Sitemap entry count mismatch");
 if(failures.length){console.error("FAIL: "+failures.length+" website contract violations\n"+failures.slice(0,80).join("\n"));process.exit(1);}
 console.log("PASS: "+pages.length+" bilingual HTML pages, "+(pages.length/2)+" route pairs, consistent 6-item header on desktop/mobile, links, docs and sitemap");

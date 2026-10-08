@@ -7,18 +7,18 @@ brand: Kabin Agent
 legal_entity: "CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY"
 ---
 
-# Kabin Agent | Biến trí tuệ thành năng lực thực thi
+# Kabin Agent | Nói điều anh cần. Kabin kết nối năng lực để thực hiện.
 
-> Kabin là định hướng hạ tầng AI Workforce kết hợp Agentic AI, Routine Automation, Capacity tái sử dụng và trí nhớ vận hành.
+> Nền tảng AI Agent mở, kết nối người cần kết quả, người tạo giải pháp và nhà cung cấp năng lực thực thi. Kabin hướng tới việc tìm, kết hợp, kiểm chứng và đối soát mức sử dụng cho công việc thực tế.
 
 ## Hero
-**Kicker:** HẠ TẦNG AI WORKFORCE
+**Kicker:** HỆ SINH THÁI AI AGENT MỞ
 
-**Headline:** Trí tuệ tạo khả năng. Thực thi tạo giá trị.
+**Headline:** Nói điều anh cần. Kabin kết nối năng lực để thực hiện.
 
 Kabin kết nối AI Agent, quy trình ổn định và các năng lực có thể tái sử dụng thành một cách làm việc thống nhất. Từ mục tiêu rõ ràng đến kết quả có thể kiểm chứng.
 
-**Primary CTA:** Khám phá nền tảng → #platform
+**Primary CTA:** Chọn hành trình của anh → #audiences
 
 **Secondary CTA:** Xem cách hoạt động → #how
 
@@ -173,3 +173,9 @@ Bản xem trước định hướng website. Khả năng và thời điểm cung
 - Email: **info@kabin.cloud**.
 - Điện thoại: **0974744299**.
 - Liên kết Platform trên homepage trỏ đến `/vi/platform/`.
+
+## Hành trình của ba phía
+
+MỘT NỀN TẢNG · BA PHÍA THAM GIA Anh đến Kabin để làm gì? Nói công việc cần hoàn thành, biến ý tưởng thành giải pháp hoặc đóng góp toolkit mà người khác cần. Kabin kết nối cả ba vai trò trong một hệ sinh thái thực thi mở. 01 / NGƯỜI SỬ DỤNG Tôi cần kết quả. Mô tả công việc. Tìm hiểu cách Kabin chọn giải pháp, phối hợp công cụ, kiểm chứng đầu ra và đối soát sử dụng. Sử dụng Kabin ↗ 02 / NGƯỜI XÂY GIẢI PHÁP Tôi có ý tưởng. Đóng gói một bài toán thành recipe dùng lại. Tự sử dụng hoặc chia sẻ cho cộng đồng khi nền tảng hỗ trợ. Xây giải pháp ↗ 03 / NHÀ CUNG CẤP NĂNG LỰC Tôi tạo công cụ. Đưa skill, plugin, SDK hoặc toolkit GitHub vào hệ sinh thái theo hợp đồng đã kiểm chứng để nhiều giải pháp cùng dùng. Cung cấp Capacity ↗ Kabin là nền tảng kết nối, không phải nhóm khách hàng thứ tư. Một người có thể vừa là User, Builder và Provider. Website chỉ giới thiệu mô hình, chưa hỗ trợ giao dịch.
+
+Các phần sâu của website sẽ được chỉnh tiếp theo product model này, không xem là đã hoàn thiện về nội dung.

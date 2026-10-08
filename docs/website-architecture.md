@@ -52,3 +52,9 @@
 - Official UI company navigation label: `Company` (EN), `Công ty` (VI); prose may use `doanh nghiệp` contextually.
 - Platform hero back link and section label must occupy separate rows, including at 390px mobile.
 - Automated static validator checks these locale boundaries and footer links, in addition to existing header invariants.
+
+## Role-first product direction, 2026-10-09
+
+Canonical product model: `docs/product/kabin-product-model.en.md` and `.vi.md`. Role-first sitemap and migration: `docs/website/role-first-sitemap.en.md` and `.vi.md`. These supersede vague technology-first marketing positioning, not the normative architecture contracts in `vulementor/kabin-agent`.
+
+Homepage introduces Use Kabin, Build Solutions and Provide Capacity. Existing six global Header links stay fixed; all existing public pages remain accessible. Total localized pages now 114 (57 route pairs). Legacy deep pages need editorial rewriting by role, not another templated sitewide copy pass. Billing, provider publishing and Github auto-install remain roadmap concepts.
