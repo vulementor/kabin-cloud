@@ -2,47 +2,41 @@
 page: solutions/sales
 locale: en
 route: /solutions/sales/
-status: published-informational
-content_type: website
+status: editorial-review
+narrative: specific-outcome-recipe
 ---
 
-# Sales Operations
+# A sales follow-up solution must know the customer and the next action.
 
-Support research, reporting and structured follow-up without inventing customer intent.
+Useful sales assistance structures approved data and follow-ups without pretending to be the salesperson.
 
-## Positioning
-Use a hybrid AI workforce to coordinate workflows around existing teams.
+## Execution flow
 
-## Content pillars
-### 1. Customer context
-Organize known interactions responsibly.
+1. Consented CRM records
+2. Qualification + reminder
+3. Draft response / next step
+4. Salesperson approval
 
-### 2. Follow-up routines
-Track approved next actions.
+## Solution steps
 
-### 3. Human judgment
-Keep important commercial decisions with sales teams.
+### Choose a customer segment
 
-## Related navigation
-- [AI Workforce Solutions](/solutions/)
-- [Marketing Operations](/solutions/marketing/)
-- [Media Production](/solutions/media-production/)
-- [Social Media Workflows](/solutions/social-media/)
-- [Research & Intelligence](/solutions/research/)
-- [Software Engineering & QA](/solutions/software-engineering/)
-- [Enterprise Automation](/solutions/enterprise-automation/)
+Use consented records and an explicit qualification rubric.
 
-## Contact
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+### Prepare the next action
 
-## Corporate identity
-- Brand: Kabin Agent
-- Displayed operator: K’UNITY Green Technology Investment Company Limited
-- Vietnamese registered name provided by operator: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- English display translation pending certificate verification: K’UNITY Green Technology Investment Company Limited
+Summarize context, surface pending questions and draft a follow-up.
 
-## Editorial constraints
-- Informational website only: does not provide capacity purchasing, accounts, production API or payments.
-- No unverified performance metrics, endorsements, partnerships or certifications.
-- English company display translation remains subject to confirmation against official incorporation records.
+### Keep the seller responsible
+
+Human reviews outbound messages, offers and commitments.
+
+## Outcome example
+
+Example: a lead has visited a home but requested financing terms. Kabin could surface that question and prepare a follow-up draft, not invent a quote.
+
+## Next action
+
+Explore sales workflow design → /build-solutions/ · /marketplace/
+
+Status: illustrative. Not live paid execution. Contact info@kabin.cloud.

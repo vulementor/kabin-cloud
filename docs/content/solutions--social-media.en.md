@@ -2,47 +2,41 @@
 page: solutions/social-media
 locale: en
 route: /solutions/social-media/
-status: published-informational
-content_type: website
+status: editorial-review
+narrative: specific-outcome-recipe
 ---
 
-# Social Media Workflows
+# Social publishing starts with authorization, ends with a receipt.
 
-Plan multi-platform content while keeping review and publishing boundaries.
+Preparing a post and confirming it was published are two different jobs.
 
-## Positioning
-Use a hybrid AI workforce to coordinate workflows around existing teams.
+## Execution flow
 
-## Content pillars
-### 1. Channel planning
-Match formats to platform needs.
+1. Approved post payload
+2. Account + permission check
+3. One submit attempt
+4. Confirmed receipt / UNKNOWN
 
-### 2. Asset continuity
-Keep captions, visuals and receipts together.
+## Solution steps
 
-### 3. Safe distribution
-Do not retry uncertain submissions blindly.
+### Prepare the payload
 
-## Related navigation
-- [AI Workforce Solutions](/solutions/)
-- [Marketing Operations](/solutions/marketing/)
-- [Media Production](/solutions/media-production/)
-- [Sales Operations](/solutions/sales/)
-- [Research & Intelligence](/solutions/research/)
-- [Software Engineering & QA](/solutions/software-engineering/)
-- [Enterprise Automation](/solutions/enterprise-automation/)
+Freeze caption, media, destination and scheduled intent.
 
-## Contact
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+### Gate the publish action
 
-## Corporate identity
-- Brand: Kabin Agent
-- Displayed operator: K’UNITY Green Technology Investment Company Limited
-- Vietnamese registered name provided by operator: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- English display translation pending certificate verification: K’UNITY Green Technology Investment Company Limited
+Confirm the correct account and the human's explicit approval.
 
-## Editorial constraints
-- Informational website only: does not provide capacity purchasing, accounts, production API or payments.
-- No unverified performance metrics, endorsements, partnerships or certifications.
-- English company display translation remains subject to confirmation against official incorporation records.
+### Reconcile results
+
+Save the platform receipt; after a timeout verify before any retry.
+
+## Outcome example
+
+Example: a TikTok submit times out after the click. The solution checks existing evidence first instead of publishing a duplicate.
+
+## Next action
+
+Build a publishing workflow → /build-solutions/ · /marketplace/
+
+Status: illustrative. Not live paid execution. Contact info@kabin.cloud.

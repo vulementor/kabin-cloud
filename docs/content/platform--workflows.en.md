@@ -2,47 +2,26 @@
 page: platform/workflows
 locale: en
 route: /platform/workflows/
-status: published-informational
-content_type: website
+status: editorial-review
+narrative: one-architecture-layer
 ---
 
-# Workflows & Routines
+# ExecutionRecipes: reuse a verified way of working.
 
-Design repeatable processes with visible boundaries and controlled recovery.
+A solution should repeat an accepted recipe before planning from scratch.
 
-## Positioning
-Understand the operating model behind dependable AI work.
+## Responsibility
 
-## Content pillars
-### 1. Define the recipe
-Make steps and dependencies explicit.
+1. Versioned recipe
+2. Capacity bindings
+3. Acceptance checks
 
-### 2. Schedule responsibly
-Run only within approved conditions.
+## Example
 
-### 3. Handle failures
-Record outcomes and escalate uncertainty.
+A weekly report recipe can be reused only while its sources, contracts and permissions remain valid.
 
-## Related navigation
-- [Hybrid Agentic + Routine](/platform/hybrid-intelligence/)
-- [Agent Orchestration](/platform/orchestration/)
-- [Capacity Engine](/platform/capacity-engine/)
-- [Memory Graph](/platform/memory-graph/)
-- [Browser & Computer Capacity](/platform/computer-use/)
-- [Governance & Security](/platform/governance/)
-- [Reference Architecture](/platform/architecture/)
+## Read more
 
-## Contact
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+/build-solutions/ · /solutions/ · /marketplace/
 
-## Corporate identity
-- Brand: Kabin Agent
-- Displayed operator: K’UNITY Green Technology Investment Company Limited
-- Vietnamese registered name provided by operator: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- English display translation pending certificate verification: K’UNITY Green Technology Investment Company Limited
-
-## Editorial constraints
-- Informational website only: does not provide capacity purchasing, accounts, production API or payments.
-- No unverified performance metrics, endorsements, partnerships or certifications.
-- English company display translation remains subject to confirmation against official incorporation records.
+Status: conceptual architecture. Contact info@kabin.cloud.

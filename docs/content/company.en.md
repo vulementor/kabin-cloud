@@ -2,48 +2,23 @@
 page: company
 locale: en
 route: /company/
-status: published-informational
-content_type: website
+status: editorial-review
 ---
 
-# About Kabin Agent
+# Kabin Agent: an open AI execution ecosystem.
 
-Kabin Agent is a technology platform direction developed and operated by K’UNITY Green Technology Investment Company Limited.
+Users need outcomes. Builders design solutions. Providers supply capacities. Kabin connects them.
 
-## Positioning
-The people-centered philosophy and company behind Kabin Agent.
+## Platform
 
-## Content pillars
-### 1. What we build
-Infrastructure for coordinated AI execution.
+Kabin Agent coordinates discovery and authorized work.
 
-### 2. Why we build it
-Intelligence needs dependable operating systems.
+## Operating entity
 
-### 3. How we work
-Combine reasoning, routines and human control.
-
-## Related navigation
-- [Vision & Mission](/company/vision/)
-- [Technology Philosophy](/company/philosophy/)
-- [Legal Entity & Identity](/company/legal-entity/)
-- [Contact Kabin](/contact/)
-- [Partners & Ecosystem](/partners/)
-- [Privacy Notice](/legal/privacy/)
-- [Website Terms](/legal/terms/)
-- [Cookie Information](/legal/cookies/)
+CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY.
 
 ## Contact
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
 
-## Corporate identity
-- Brand: Kabin Agent
-- Displayed operator: K’UNITY Green Technology Investment Company Limited
-- Vietnamese registered name provided by operator: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- English display translation pending certificate verification: K’UNITY Green Technology Investment Company Limited
+info@kabin.cloud · +84 974 744 299
 
-## Editorial constraints
-- Informational website only: does not provide capacity purchasing, accounts, production API or payments.
-- No unverified performance metrics, endorsements, partnerships or certifications.
-- English company display translation remains subject to confirmation against official incorporation records.
+Next: /company/legal-entity/ · Contact info@kabin.cloud · 0974744299.

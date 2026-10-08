@@ -2,48 +2,26 @@
 page: developers/sdk
 locale: vi
 route: /vi/developers/sdk/
-status: published-informational
-content_type: website
+status: editorial-review
+narrative: capacity-developer-reference
 ---
 
-# Lộ trình Capacity SDK
+# Kết nối SDK như ứng viên Capacity.
 
-Khám phá ưu tiên thiết kế SDK; chưa xác nhận có package công khai để cài.
+SDK đóng góp một năng lực đã kiểm thử. Adapter phải khai báo quyền truy cập và trạng thái lỗi.
 
-## Định vị
-Khái niệm kỹ thuật và hướng tích hợp cho nhà phát triển, chưa phải API đã phát hành.
+## Contract requirements
 
-## Các điểm nội dung
-### 1. An toàn kiểu dữ liệu
-Diễn đạt hợp đồng bằng schema.
+1. Entrypoint SDK
+2. Phụ thuộc và runtime
+3. Probe và tình huống lỗi
 
-### 2. Biên nhận thực thi
-Ghi kết quả và trạng thái lỗi.
+## Example
 
-### 3. Tương thích
-Quản lý phiên bản hợp đồng và lộ trình nâng cấp.
+SDK giọng nói có thể chuyển text thành audio nhưng không mặc nhiên đảm bảo license giọng, cloud hay quyền đăng bài.
 
-## Điều hướng liên quan
-- [Hệ sinh thái Developer](/vi/developers/)
-- [Bắt đầu tích hợp](/vi/developers/quickstart/)
-- [Định hướng thiết kế API](/vi/developers/api/)
-- [Định dạng Manifest Capacity](/vi/developers/manifest/)
-- [Quy trình Xây dựng và Đăng tải](/vi/developers/publishing/)
-- [Tích hợp Runtime](/vi/developers/runtime/)
-- [Ví dụ Tích hợp](/vi/developers/examples/)
-- [Nhật ký thay đổi Developer](/vi/developers/changelog/)
+## Next
 
-## Liên hệ
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+/vi/developers/manifest/ and /vi/provide-capacity/.
 
-## Nhận diện doanh nghiệp
-- Brand: Kabin Agent
-- Pháp nhân hiển thị: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- Pháp nhân tiếng Việt: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- Tên tiếng Anh hiển thị: K’UNITY Green Technology Investment Company Limited
-
-## Ghi chú biên tập
-- Website chỉ mang tính giới thiệu, không cho phép mua bán Capacity, cung cấp tài khoản, API production hoặc thanh toán.
-- Không công bố số liệu, đối tác, chứng nhận hoặc thành tích chưa được xác minh.
-- Bản dịch tên công ty tiếng Anh chưa được đối chiếu giấy chứng nhận đăng ký doanh nghiệp.
+Availability: conceptual, no live API/SDK. Contact info@kabin.cloud.

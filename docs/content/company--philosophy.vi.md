@@ -2,48 +2,23 @@
 page: company/philosophy
 locale: vi
 route: /vi/company/philosophy/
-status: published-informational
-content_type: website
+status: editorial-review
 ---
 
-# Triết lý Công nghệ
+# Kết quả rõ ràng. Cộng đồng mở. Quyền hạn minh bạch.
 
-Xây hệ thống đáng tin cậy bằng cách lựa chọn suy luận, lặp lại và giám sát đúng chỗ.
+Kabin hướng tới sử dụng công cụ cộng đồng mà không cấp quyền vô hạn cho mã chưa được thẩm định.
 
-## Định vị
-Triết lý đặt con người làm trung tâm và pháp nhân phát triển Kabin Agent.
+## Ưu tiên kết quả
 
-## Các điểm nội dung
-### 1. Tin cậy trước tự chủ
-Kiểm tra kết quả thay vì chạy theo demo.
+Người dùng nêu công việc, không cần chọn tên plugin.
 
-### 2. Suy luận đúng chỗ
-Không dùng trí tuệ để lặp lại quy tắc cố định.
+## Cộng đồng đóng góp
 
-### 3. Nhớ trước lặp
-Phục hồi ngữ cảnh trước khi bắt đầu lại.
+Builder đóng gói giải pháp; Provider tạo công cụ tái dùng.
 
-## Điều hướng liên quan
-- [Giới thiệu Kabin Agent](/vi/company/)
-- [Tầm nhìn và Sứ mệnh](/vi/company/vision/)
-- [Pháp nhân và Nhận diện](/vi/company/legal-entity/)
-- [Liên hệ Kabin](/vi/contact/)
-- [Đối tác và Hệ sinh thái](/vi/partners/)
-- [Thông báo Quyền riêng tư](/vi/legal/privacy/)
-- [Điều khoản Website](/vi/legal/terms/)
-- [Thông tin Cookie](/vi/legal/cookies/)
+## Thực thi có bằng chứng
 
-## Liên hệ
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+Hợp đồng, policy, phê duyệt và receipt là bắt buộc.
 
-## Nhận diện doanh nghiệp
-- Brand: Kabin Agent
-- Pháp nhân hiển thị: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- Pháp nhân tiếng Việt: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- Tên tiếng Anh hiển thị: K’UNITY Green Technology Investment Company Limited
-
-## Ghi chú biên tập
-- Website chỉ mang tính giới thiệu, không cho phép mua bán Capacity, cung cấp tài khoản, API production hoặc thanh toán.
-- Không công bố số liệu, đối tác, chứng nhận hoặc thành tích chưa được xác minh.
-- Bản dịch tên công ty tiếng Anh chưa được đối chiếu giấy chứng nhận đăng ký doanh nghiệp.
+Next: /vi/company/vision/ · Contact info@kabin.cloud · 0974744299.

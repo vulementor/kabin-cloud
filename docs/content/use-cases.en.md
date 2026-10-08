@@ -2,47 +2,31 @@
 page: use-cases
 locale: en
 route: /use-cases/
-status: published-informational
-content_type: website
+status: editorial-review
 ---
 
-# Use Cases
+# Three illustrative solution recipes
 
-Scenario-based examples showing how hybrid workflow design may support teams.
+Start from an outcome, then identify required capacities.
 
-## Positioning
-Guides, concepts and updates to understand the emerging Agentic workforce.
+## Short video
 
-## Content pillars
-### 1. Marketing brief
-From research to creative review.
+Script, voice, rendering and approval.
 
-### 2. Technical review
-From source context to validated change.
+Link: /solutions/media-production/
 
-### 3. Recurring report
-From schedule to evidence-backed output.
+## Market brief
 
-## Related navigation
-- [Resource Center](/resources/)
-- [Blog & Insights](/blog/)
-- [Documentation Hub](/docs/)
-- [Case Studies](/case-studies/)
-- [Frequently Asked Questions](/faq/)
-- [Product Updates](/updates/)
-- [Support & Contact](/support/)
+Sources, analysis, citation and review.
 
-## Contact
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+Link: /solutions/research/
 
-## Corporate identity
-- Brand: Kabin Agent
-- Displayed operator: K’UNITY Green Technology Investment Company Limited
-- Vietnamese registered name provided by operator: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- English display translation pending certificate verification: K’UNITY Green Technology Investment Company Limited
+## Social publishing
 
-## Editorial constraints
-- Informational website only: does not provide capacity purchasing, accounts, production API or payments.
-- No unverified performance metrics, endorsements, partnerships or certifications.
-- English company display translation remains subject to confirmation against official incorporation records.
+One authorized attempt and receipt check.
+
+Link: /solutions/social-media/
+
+**Availability:** Concept examples, not ready-to-buy services.
+
+Contact: info@kabin.cloud.

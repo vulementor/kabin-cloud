@@ -2,47 +2,41 @@
 page: solutions/enterprise-automation
 locale: vi
 route: /vi/solutions/enterprise-automation/
-status: published-informational
-content_type: website
+status: editorial-review
+narrative: specific-outcome-recipe
 ---
 
-# Tự động hóa Doanh nghiệp
+# Tự động hóa doanh nghiệp phải giữ ranh giới quyền hạn.
 
-Thiết kế workflow xuyên ứng dụng, chú trọng chính sách, audit và phục hồi.
+Kết nối hệ thống hiện hữu nhưng không đánh mất phân quyền, dấu vết kiểm toán và trách nhiệm con người.
 
-## Định vị
-Dùng AI Workforce hybrid để kết nối quy trình xung quanh đội ngũ hiện hữu.
+## Đầu vào và đầu ra
 
-## Các điểm nội dung
-### 1. Lập sơ đồ quy trình
-Xác định hệ thống, người phụ trách và ngoại lệ.
+1. Quy trình được phép
+2. Connector đã duyệt
+3. Thực thi kiểm soát
+4. Audit + xử lý ngoại lệ
 
-### 2. Áp dụng quản trị
-Phân quyền và điểm duyệt.
+## Các bước của giải pháp
 
-### 3. Đo lường vận hành
-Giữ trạng thái và kết quả để kiểm tra.
+### Vẽ quy trình
 
-## Điều hướng liên quan
-- [Giải pháp AI Workforce](/vi/solutions/)
-- [Vận hành Marketing](/vi/solutions/marketing/)
-- [Sản xuất Media](/vi/solutions/media-production/)
-- [Quy trình Mạng xã hội](/vi/solutions/social-media/)
-- [Vận hành Kinh doanh](/vi/solutions/sales/)
-- [Nghiên cứu và Phân tích](/vi/solutions/research/)
-- [Kỹ thuật Phần mềm và QA](/vi/solutions/software-engineering/)
+Xác định chủ sở hữu, điều kiện kích hoạt, dữ liệu và hệ thống.
 
-## Liên hệ
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+### Ghép theo chính sách
 
-## Nhận diện doanh nghiệp
-- Brand: Kabin Agent
-- Pháp nhân hiển thị: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- Pháp nhân tiếng Việt: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- Tên tiếng Anh hiển thị: K’UNITY Green Technology Investment Company Limited
+Chọn connector hợp lệ, khai báo tác động bên ngoài của từng bước.
 
-## Ghi chú biên tập
-- Website chỉ mang tính giới thiệu, không cho phép mua bán Capacity, cung cấp tài khoản, API production hoặc thanh toán.
-- Không công bố số liệu, đối tác, chứng nhận hoặc thành tích chưa được xác minh.
-- Bản dịch tên công ty tiếng Anh chưa được đối chiếu giấy chứng nhận đăng ký doanh nghiệp.
+### Vận hành có giám sát
+
+Lưu bằng chứng, đưa trạng thái chưa rõ tới người phụ trách và hỗ trợ thu hồi quyền.
+
+## Ví dụ nghiệm thu
+
+Ví dụ đề nghị mua sắm nội bộ đi qua kiểm tra tài liệu, duyệt cấp trên; không tự thanh toán khi chưa có quyền.
+
+## Next action
+
+Trao đổi kiến trúc doanh nghiệp → /vi/build-solutions/ · /vi/marketplace/
+
+Status: illustrative. Not live paid execution. Contact info@kabin.cloud.

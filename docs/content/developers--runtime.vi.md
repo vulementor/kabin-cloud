@@ -2,48 +2,26 @@
 page: developers/runtime
 locale: vi
 route: /vi/developers/runtime/
-status: published-informational
-content_type: website
+status: editorial-review
+narrative: capacity-developer-reference
 ---
 
-# Tích hợp Runtime
+# Chạy Capacity đúng môi trường được phép.
 
-Thiết kế adapter cho ranh giới thực thi cloud, API, browser và máy tính.
+Vị trí chạy là ranh giới thực thi, không chỉ tùy chọn Docker hay GPU.
 
-## Định vị
-Khái niệm kỹ thuật và hướng tích hợp cho nhà phát triển, chưa phải API đã phát hành.
+## Contract requirements
 
-## Các điểm nội dung
-### 1. Thẩm quyền rõ
-Tôn trọng quyền riêng của từng runtime.
+1. Yêu cầu runtime
+2. Tài nguyên và dữ liệu
+3. Quyền mạng / file
 
-### 2. Cách ly trạng thái
-Tách job và vùng lưu trữ.
+## Example
 
-### 3. Phục hồi an toàn
-Dùng biên nhận bền vững trước khi thử lại.
+CLI local phù hợp file riêng tư; GPU từ xa cần phê duyệt truyền dữ liệu.
 
-## Điều hướng liên quan
-- [Hệ sinh thái Developer](/vi/developers/)
-- [Bắt đầu tích hợp](/vi/developers/quickstart/)
-- [Lộ trình Capacity SDK](/vi/developers/sdk/)
-- [Định hướng thiết kế API](/vi/developers/api/)
-- [Định dạng Manifest Capacity](/vi/developers/manifest/)
-- [Quy trình Xây dựng và Đăng tải](/vi/developers/publishing/)
-- [Ví dụ Tích hợp](/vi/developers/examples/)
-- [Nhật ký thay đổi Developer](/vi/developers/changelog/)
+## Next
 
-## Liên hệ
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+/vi/developers/manifest/ and /vi/provide-capacity/.
 
-## Nhận diện doanh nghiệp
-- Brand: Kabin Agent
-- Pháp nhân hiển thị: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- Pháp nhân tiếng Việt: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- Tên tiếng Anh hiển thị: K’UNITY Green Technology Investment Company Limited
-
-## Ghi chú biên tập
-- Website chỉ mang tính giới thiệu, không cho phép mua bán Capacity, cung cấp tài khoản, API production hoặc thanh toán.
-- Không công bố số liệu, đối tác, chứng nhận hoặc thành tích chưa được xác minh.
-- Bản dịch tên công ty tiếng Anh chưa được đối chiếu giấy chứng nhận đăng ký doanh nghiệp.
+Availability: conceptual, no live API/SDK. Contact info@kabin.cloud.

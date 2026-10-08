@@ -2,47 +2,31 @@
 page: faq
 locale: en
 route: /faq/
-status: published-informational
-content_type: website
+status: editorial-review
 ---
 
-# Frequently Asked Questions
+# Kabin frequently asked questions
 
-Concise explanations of Kabin's model, current website scope and contact channels.
+What exists now versus what is planned.
 
-## Positioning
-Guides, concepts and updates to understand the emerging Agentic workforce.
+## Can I buy Capacity?
 
-## Content pillars
-### 1. What is Kabin?
-An AI workforce infrastructure direction.
+No, the catalog is informational.
 
-### 2. Is the marketplace live?
-This is currently a concept presentation.
+Link: /marketplace/
 
-### 3. How to contact us?
-Use the published company email or phone.
+## Can a GitHub skill be installed?
 
-## Related navigation
-- [Resource Center](/resources/)
-- [Blog & Insights](/blog/)
-- [Documentation Hub](/docs/)
-- [Use Cases](/use-cases/)
-- [Case Studies](/case-studies/)
-- [Product Updates](/updates/)
-- [Support & Contact](/support/)
+Submit a proposal; no automatic untrusted execution.
 
-## Contact
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+Link: /provide-capacity/
 
-## Corporate identity
-- Brand: Kabin Agent
-- Displayed operator: K’UNITY Green Technology Investment Company Limited
-- Vietnamese registered name provided by operator: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- English display translation pending certificate verification: K’UNITY Green Technology Investment Company Limited
+## Can I build for myself?
 
-## Editorial constraints
-- Informational website only: does not provide capacity purchasing, accounts, production API or payments.
-- No unverified performance metrics, endorsements, partnerships or certifications.
-- English company display translation remains subject to confirmation against official incorporation records.
+Yes. A Builder may also be the User.
+
+Link: /build-solutions/
+
+**Availability:** Public checkout, paid work orders and payouts are not live.
+
+Contact: info@kabin.cloud.

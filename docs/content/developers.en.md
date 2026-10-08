@@ -2,73 +2,35 @@
 page: developers
 locale: en
 route: /developers/
-status: rewritten-review-pending
-narrative: STRINGS
+status: editorial-review
+narrative: concise-role-first
 ---
 
-# A workflow becomes reusable when its contract is clear.
+# Build a skill. Define its contract. Connect it to Kabin.
 
-An agent cannot safely orchestrate a mystery box. Before integrating a tool, define what it accepts, what it produces, what it may change and how uncertain outcomes are handled.
+For people who write tools, SDKs, plugins and services. Turn a working function into a bounded Capacity other solutions can discover and evaluate.
 
-## SHARE / START WITH THE FAILURE MODE
+## From your code to an admissible capability
 
-### Undocumented execution is expensive to recover.
-A script may complete locally while a network response times out. A browser can submit a form without delivering a confirmation. A rendering job may write a file before its receipt is committed. Without a contract and durable state, orchestration risks repeating work or mistaking an unknown result for success.
+- **01 / Build:** Create a tool with one clear job and a testable output.
+- **02 / Contract:** Specify inputs, outputs, version, runtime, permissions and side effects.
+- **03 / Validate:** Propose a candidate for isolated tests and independent evidence.
+- **04 / Supply:** Describe deployment availability and terms when provider onboarding opens.
 
-## TEACH / ONE CAPACITY, BOUNDED
+## Example and usage
 
-### Describe the work before you trigger it.
-This concept manifest names a single media review-packet task. Its fields illustrate the questions a provider contract should answer; the syntax is not an official Kabin API specification.
+Example: your scene-detection SDK accepts MP4 and returns timestamped scenes. It is not a video renderer. Its contract should make that distinction machine-readable.
 
-```json
-{
-  "capacity": "media.review-packet",
-  "version": "0.1.0-concept",
-  "input": ["brief", "approved_sources"],
-  "output": ["review_packet", "receipt"],
-  "authority": {"external_publish": "human_approval"},
-  "on_uncertain_result": "verify_first"
-}
-```
+## Next action
 
-Teaching example only. No production endpoint, published SDK or runnable installation is implied.
+**See the Capacity contract**: developers/manifest/
 
-### What the contract gives the next worker
-- **Inputs are explicit:** A caller knows which project, brief and approved source materials are required.
-- **Outputs are inspectable:** A resulting packet and review notes are named before execution.
-- **Authority is visible:** The package can be prepared automatically; publication remains behind approval.
-- **Unknown is a real state:** A timeout does not automatically authorize resubmission.
+- Capacity manifest: /developers/manifest/
+- SDK integration: /developers/sdk/
+- Become a Provider: /provide-capacity/
 
-## INTRIGUE
+## Availability
 
-### What if the service did the work, but the response was lost?
-Retrying immediately might duplicate an upload or publish a second post. The safer path is to inspect existing artifacts, receipt IDs and external evidence before deciding whether the action needs another attempt. That boundary is more valuable than a glossy success animation.
+Technical documentation is illustrative. The site does not expose a production SDK, CLI or onboarding endpoint.
 
-- **PLANNED:** Intent and permissions resolved; no irreversible action submitted.
-- **RUNNING:** Work in progress, with job ID and observable checkpoints.
-- **UNKNOWN:** Outcome cannot be established from current evidence; do not blindly repeat.
-- **VALIDATED:** Outputs and receipts have been checked against their contract.
-
-## NURTURE
-
-### Build for verification, not just a green status badge.
-Contracts, structured errors, approval gates and receipts make a Capacity easier to compose across different models or runtimes. None of these practices requires promising a universal adapter or pretending an unreleased SDK exists.
-
-1. Identify the smallest useful operation.
-2. Specify inputs, outputs and permission scope.
-3. Define retry/idempotency and uncertain outcomes.
-4. Provide evidence and examples a reviewer can inspect.
-
-## Action
-
-### Have a service or workflow worth turning into Capacity?
-Share its existing interface, runtime boundary and failure modes. We can discuss the contract model and product direction without claiming a live public API.
-
-Contact: info@kabin.cloud | +84 974 744 299
-
-## Compliance note
-Architecture proposal and illustrative JSON. No released SDK, endpoint, provider publishing or commercial SLA is asserted.
-
-- Copy and bespoke visual are for editorial review; no claims of live Marketplace, SDK or production API.
-- Operator VI: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY.
-- Operator EN display: K’UNITY Green Technology Investment Company Limited (translation pending certificate verification).
+Contact: info@kabin.cloud | 0974744299.

@@ -2,48 +2,32 @@
 page: marketplace/providers
 locale: en
 route: /marketplace/providers/
-status: published-informational
-content_type: website
+status: editorial-review
+narrative: capability-contract
 ---
 
-# Provider Program
+# For Capacity Providers
 
-Explore how capacity providers may participate in a governed ecosystem.
+Supply a useful capability with a contract that a Builder can inspect.
 
-## Positioning
-A future directory of reusable capabilities for real work.
+## Contract overview
 
-## Content pillars
-### 1. Provider identity
-Establish ownership and support responsibilities.
+- Input: Skill / toolkit / API
+- Output: Capability candidate + offer
+- Validation: License, sandbox evidence, permissions
 
-### 2. Capability quality
-Specify testable performance boundaries.
+## Scope
 
-### 3. Commercial roadmap
-Provider payments and onboarding are not yet offered.
+Provider contributes the execution primitive, not the complete customer outcome or an automatic production approval.
 
-## Related navigation
-- [Discover Capacity](/marketplace/)
-- [AI Agents](/marketplace/agents/)
-- [Workflow Capacities](/marketplace/workflows/)
-- [Tools & APIs](/marketplace/tools/)
-- [Media & Creative](/marketplace/creative/)
-- [Browser & Computer](/marketplace/automation/)
-- [Data & Research](/marketplace/data/)
-- [Publish a Capacity](/marketplace/publish/)
+## Example
 
-## Contact
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+A developer contributes an MP4 scene detector; video Builders can compose it with rendering Capacity.
 
-## Corporate identity
-- Brand: Kabin Agent
-- Displayed operator: K’UNITY Green Technology Investment Company Limited
-- Vietnamese registered name provided by operator: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- English display translation pending certificate verification: K’UNITY Green Technology Investment Company Limited
+## Action
 
-## Editorial constraints
-- Informational website only: does not provide capacity purchasing, accounts, production API or payments.
-- No unverified performance metrics, endorsements, partnerships or certifications.
-- English company display translation remains subject to confirmation against official incorporation records.
+Become a Capacity Provider
+
+Links: /provide-capacity/ and /marketplace/.
+
+**Availability:** Capability type / illustrative contract, not a purchasable listing. Contact: info@kabin.cloud.

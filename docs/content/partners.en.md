@@ -2,48 +2,23 @@
 page: partners
 locale: en
 route: /partners/
-status: published-informational
-content_type: website
+status: editorial-review
 ---
 
-# Partners & Ecosystem
+# Collaborate as a Builder or Capacity Provider.
 
-Explore potential collaboration around services, workflows and capacity providers.
+Partnership should start from a specific solution or useful tool, not a generic partner badge.
 
-## Positioning
-The people-centered philosophy and company behind Kabin Agent.
+## Have an idea?
 
-## Content pillars
-### 1. Technology partners
-Connect useful APIs or runtimes.
+Define the outcome and who needs it.
 
-### 2. Implementation partners
-Help teams deploy accountable workflows.
+## Have a tool?
 
-### 3. Capacity providers
-Discuss a future distribution model.
+Share its contract, license and runtime.
 
-## Related navigation
-- [About Kabin Agent](/company/)
-- [Vision & Mission](/company/vision/)
-- [Technology Philosophy](/company/philosophy/)
-- [Legal Entity & Identity](/company/legal-entity/)
-- [Contact Kabin](/contact/)
-- [Privacy Notice](/legal/privacy/)
-- [Website Terms](/legal/terms/)
-- [Cookie Information](/legal/cookies/)
+## Need a fit review?
 
-## Contact
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+Email info@kabin.cloud with a short proposal.
 
-## Corporate identity
-- Brand: Kabin Agent
-- Displayed operator: K’UNITY Green Technology Investment Company Limited
-- Vietnamese registered name provided by operator: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- English display translation pending certificate verification: K’UNITY Green Technology Investment Company Limited
-
-## Editorial constraints
-- Informational website only: does not provide capacity purchasing, accounts, production API or payments.
-- No unverified performance metrics, endorsements, partnerships or certifications.
-- English company display translation remains subject to confirmation against official incorporation records.
+Next: /provide-capacity/ · Contact info@kabin.cloud · 0974744299.

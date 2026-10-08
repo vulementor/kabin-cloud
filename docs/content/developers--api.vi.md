@@ -2,48 +2,26 @@
 page: developers/api
 locale: vi
 route: /vi/developers/api/
-status: published-informational
-content_type: website
+status: editorial-review
+narrative: capacity-developer-reference
 ---
 
-# Định hướng thiết kế API
+# Đóng gói API có phạm vi quyền rõ.
 
-Tìm hiểu các nhóm API dự kiến, không công bố endpoint chưa có là API thật.
+Adapter API cần khai báo thao tác, phạm vi credential và hiệu ứng bên ngoài.
 
-## Định vị
-Khái niệm kỹ thuật và hướng tích hợp cho nhà phát triển, chưa phải API đã phát hành.
+## Contract requirements
 
-## Các điểm nội dung
-### 1. Khám phá
-Tìm Capacity theo metadata.
+1. Method và input
+2. Auth / scope
+3. Output và retry
 
-### 2. Thực thi
-Gửi yêu cầu có phạm vi và quyền hạn.
+## Example
 
-### 3. Quan sát
-Đọc trạng thái, đầu ra và bằng chứng.
+API chỉ đọc CRM không được quảng cáo như công cụ ghi; timeout sau lần gửi phải đối soát.
 
-## Điều hướng liên quan
-- [Hệ sinh thái Developer](/vi/developers/)
-- [Bắt đầu tích hợp](/vi/developers/quickstart/)
-- [Lộ trình Capacity SDK](/vi/developers/sdk/)
-- [Định dạng Manifest Capacity](/vi/developers/manifest/)
-- [Quy trình Xây dựng và Đăng tải](/vi/developers/publishing/)
-- [Tích hợp Runtime](/vi/developers/runtime/)
-- [Ví dụ Tích hợp](/vi/developers/examples/)
-- [Nhật ký thay đổi Developer](/vi/developers/changelog/)
+## Next
 
-## Liên hệ
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+/vi/developers/manifest/ and /vi/provide-capacity/.
 
-## Nhận diện doanh nghiệp
-- Brand: Kabin Agent
-- Pháp nhân hiển thị: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- Pháp nhân tiếng Việt: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- Tên tiếng Anh hiển thị: K’UNITY Green Technology Investment Company Limited
-
-## Ghi chú biên tập
-- Website chỉ mang tính giới thiệu, không cho phép mua bán Capacity, cung cấp tài khoản, API production hoặc thanh toán.
-- Không công bố số liệu, đối tác, chứng nhận hoặc thành tích chưa được xác minh.
-- Bản dịch tên công ty tiếng Anh chưa được đối chiếu giấy chứng nhận đăng ký doanh nghiệp.
+Availability: conceptual, no live API/SDK. Contact info@kabin.cloud.

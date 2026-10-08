@@ -2,47 +2,36 @@
 page: solutions
 locale: en
 route: /solutions/
-status: published-informational
-content_type: website
+status: editorial-review
+narrative: concise-role-first
 ---
 
-# AI Workforce Solutions
+# How Kabin turns an idea into an executable solution.
 
-Use agentic intelligence and routines to bridge the gaps between tools, handoffs and outcomes.
+A Builder defines the outcome. Kabin finds compatible Capacity, composes the execution, runs it under Core control and checks the result.
 
-## Positioning
-Use a hybrid AI workforce to coordinate workflows around existing teams.
+## The solution architecture
 
-## Content pillars
-### 1. Start with outcomes
-Select work that is worth coordinating.
+- **1. Outcome:** User or Builder defines the result, inputs and success criteria.
+- **2. Discover:** Find a verified recipe first. Fill missing steps with eligible Capacity.
+- **3. Compose:** Match contracts, evidence, runtime, permissions and cost.
+- **4. Execute:** Kabin Core coordinates Agentic decisions and reliable Routines.
+- **5. Verify:** Validate artifacts, preserve receipts and record usage.
 
-### 2. Respect ownership
-Keep teams accountable for decisions.
+## Example and usage
 
-### 3. Grow in steps
-Begin with bounded flows before wider automation.
+Example: a short video solution may connect script, voice, rendering and publishing capacities. The Builder owns the recipe. Providers supply each capability. The User approves public distribution.
 
-## Related navigation
-- [Marketing Operations](/solutions/marketing/)
-- [Media Production](/solutions/media-production/)
-- [Social Media Workflows](/solutions/social-media/)
-- [Sales Operations](/solutions/sales/)
-- [Research & Intelligence](/solutions/research/)
-- [Software Engineering & QA](/solutions/software-engineering/)
-- [Enterprise Automation](/solutions/enterprise-automation/)
+## Next action
 
-## Contact
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+**Start building**: build-solutions/
 
-## Corporate identity
-- Brand: Kabin Agent
-- Displayed operator: K’UNITY Green Technology Investment Company Limited
-- Vietnamese registered name provided by operator: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- English display translation pending certificate verification: K’UNITY Green Technology Investment Company Limited
+- Build a solution: /build-solutions/
+- Browse Capacity: /marketplace/
+- Explore examples: /solutions/media-production/
 
-## Editorial constraints
-- Informational website only: does not provide capacity purchasing, accounts, production API or payments.
-- No unverified performance metrics, endorsements, partnerships or certifications.
-- English company display translation remains subject to confirmation against official incorporation records.
+## Availability
+
+Architecture model, not a live solution builder or ordering service.
+
+Contact: info@kabin.cloud | 0974744299.

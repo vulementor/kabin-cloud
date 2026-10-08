@@ -2,48 +2,23 @@
 page: company/legal-entity
 locale: en
 route: /company/legal-entity/
-status: published-informational
-content_type: website
+status: editorial-review
 ---
 
-# Legal Entity & Identity
+# Company identity and contacts.
 
-Learn the distinction between the Kabin Agent brand and its Vietnamese operating company.
+The legal entity provided for Kabin Agent is registered under its Vietnamese name.
 
-## Positioning
-The people-centered philosophy and company behind Kabin Agent.
+## Legal name (Vietnamese)
 
-## Content pillars
-### 1. Product identity
-Kabin Agent is the platform brand.
+CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY.
 
-### 2. Operating entity
-K’UNITY is the named Vietnamese company.
+## English display translation
 
-### 3. Legal accuracy
-Registered English name and company numbers require certificate verification.
+K’UNITY Green Technology Investment Company Limited (not verified against certificate).
 
-## Related navigation
-- [About Kabin Agent](/company/)
-- [Vision & Mission](/company/vision/)
-- [Technology Philosophy](/company/philosophy/)
-- [Contact Kabin](/contact/)
-- [Partners & Ecosystem](/partners/)
-- [Privacy Notice](/legal/privacy/)
-- [Website Terms](/legal/terms/)
-- [Cookie Information](/legal/cookies/)
+## Email and telephone
 
-## Contact
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+info@kabin.cloud · +84 974 744 299
 
-## Corporate identity
-- Brand: Kabin Agent
-- Displayed operator: K’UNITY Green Technology Investment Company Limited
-- Vietnamese registered name provided by operator: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- English display translation pending certificate verification: K’UNITY Green Technology Investment Company Limited
-
-## Editorial constraints
-- Informational website only: does not provide capacity purchasing, accounts, production API or payments.
-- No unverified performance metrics, endorsements, partnerships or certifications.
-- English company display translation remains subject to confirmation against official incorporation records.
+Next: /contact/ · Contact info@kabin.cloud · 0974744299.

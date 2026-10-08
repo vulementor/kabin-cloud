@@ -2,47 +2,41 @@
 page: solutions/software-engineering
 locale: vi
 route: /vi/solutions/software-engineering/
-status: published-informational
-content_type: website
+status: editorial-review
+narrative: specific-outcome-recipe
 ---
 
-# Kỹ thuật Phần mềm và QA
+# Automation kỹ thuật phải tạo thay đổi kiểm tra được, không chỉ sinh code.
 
-Điều phối rà soát code, kiểm thử, tài liệu và phát hành có kiểm soát.
+Giải pháp lập trình an toàn nối một yêu cầu với diff, test, review và bước merge được cấp quyền.
 
-## Định vị
-Dùng AI Workforce hybrid để kết nối quy trình xung quanh đội ngũ hiện hữu.
+## Đầu vào và đầu ra
 
-## Các điểm nội dung
-### 1. Ngữ cảnh repository
-Thay đổi dựa trên mã nguồn thực tế.
+1. Issue + repo
+2. Nhánh chỉnh sửa + test
+3. Bản vá để review
+4. Merge có quyền
 
-### 2. Kiểm thử tập trung
-Xác minh thay đổi nhỏ nhất có ý nghĩa.
+## Các bước của giải pháp
 
-### 3. Cổng phê duyệt
-Tách thẩm quyền review, merge và deploy.
+### Giới hạn phạm vi
 
-## Điều hướng liên quan
-- [Giải pháp AI Workforce](/vi/solutions/)
-- [Vận hành Marketing](/vi/solutions/marketing/)
-- [Sản xuất Media](/vi/solutions/media-production/)
-- [Quy trình Mạng xã hội](/vi/solutions/social-media/)
-- [Vận hành Kinh doanh](/vi/solutions/sales/)
-- [Nghiên cứu và Phân tích](/vi/solutions/research/)
-- [Tự động hóa Doanh nghiệp](/vi/solutions/enterprise-automation/)
+Chốt repository, file được sửa, test nghiệm thu và quyền thao tác.
 
-## Liên hệ
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+### Tách viết và kiểm thử
 
-## Nhận diện doanh nghiệp
-- Brand: Kabin Agent
-- Pháp nhân hiển thị: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- Pháp nhân tiếng Việt: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- Tên tiếng Anh hiển thị: K’UNITY Green Technology Investment Company Limited
+Thực hiện trong branch có giới hạn, lưu lệnh và kết quả kiểm tra.
 
-## Ghi chú biên tập
-- Website chỉ mang tính giới thiệu, không cho phép mua bán Capacity, cung cấp tài khoản, API production hoặc thanh toán.
-- Không công bố số liệu, đối tác, chứng nhận hoặc thành tích chưa được xác minh.
-- Bản dịch tên công ty tiếng Anh chưa được đối chiếu giấy chứng nhận đăng ký doanh nghiệp.
+### Review trước khi phát hành
+
+Báo diff, bằng chứng test và vấn đề còn lại; chỉ merge khi được duyệt.
+
+## Ví dụ nghiệm thu
+
+Ví dụ một unit test lỗi cần sửa một file. Agent đề xuất; Routine chạy test; reviewer duyệt PR.
+
+## Next action
+
+Thiết kế workflow kỹ thuật → /vi/build-solutions/ · /vi/marketplace/
+
+Status: illustrative. Not live paid execution. Contact info@kabin.cloud.

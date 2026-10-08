@@ -2,47 +2,31 @@
 page: docs
 locale: en
 route: /docs/
-status: published-informational
-content_type: website
+status: editorial-review
 ---
 
-# Documentation Hub
+# Documentation organized by the job
 
-A navigational starting point for the current concepts and future technical docs.
+A Builder needs a recipe; a Provider needs precise contracts.
 
-## Positioning
-Guides, concepts and updates to understand the emerging Agentic workforce.
+## Solution architecture
 
-## Content pillars
-### 1. Platform model
-Read the reference architecture.
+Outcome → Recipe → Capacity → Core.
 
-### 2. Capacity definitions
-Learn the proposed contracts.
+Link: /solutions/
 
-### 3. Availability
-Production API documentation is not published here.
+## Capacity manifest
 
-## Related navigation
-- [Resource Center](/resources/)
-- [Blog & Insights](/blog/)
-- [Use Cases](/use-cases/)
-- [Case Studies](/case-studies/)
-- [Frequently Asked Questions](/faq/)
-- [Product Updates](/updates/)
-- [Support & Contact](/support/)
+Types, permissions, runtime and evidence.
 
-## Contact
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+Link: /developers/manifest/
 
-## Corporate identity
-- Brand: Kabin Agent
-- Displayed operator: K’UNITY Green Technology Investment Company Limited
-- Vietnamese registered name provided by operator: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- English display translation pending certificate verification: K’UNITY Green Technology Investment Company Limited
+## Provider admission
 
-## Editorial constraints
-- Informational website only: does not provide capacity purchasing, accounts, production API or payments.
-- No unverified performance metrics, endorsements, partnerships or certifications.
-- English company display translation remains subject to confirmation against official incorporation records.
+Review and sandbox before use.
+
+Link: /developers/publishing/
+
+**Availability:** Examples are conceptual, not released SDK endpoints.
+
+Contact: info@kabin.cloud.

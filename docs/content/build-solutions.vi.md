@@ -3,60 +3,34 @@ page: build-solutions
 locale: vi
 route: /vi/build-solutions/
 status: editorial-review
-narrative: builder-journey
+narrative: concise-role-first
 ---
 
-# Ý tưởng tạo thành giải pháp. Capacity giúp nó thực thi.
+# Có ý tưởng? Bắt đầu xây giải pháp tại đây.
 
-Người xây dựng giải pháp sở hữu bài toán và lời hứa với người dùng. Kabin hướng tới giúp họ ghép Capacity từ nhiều Provider thành một giải pháp tái sử dụng, dù tự dùng hay sau này chia sẻ.
+Anh xác định người dùng cần gì. Kabin giúp tìm năng lực phù hợp, ghép thành recipe có thể dùng lại và kiểm thử kết quả.
 
-## Ý tưởng có giá trị không nên phải viết lại mọi toolkit.
+## Bốn quyết định để bắt đầu
 
-Một người muốn làm bản tin thị trường hạ tầng mỗi sáng. Giá trị nằm ở tiêu chí phát hiện thay đổi, cách đánh giá nguồn và kết quả người đọc nhận được. Nếu mỗi Builder đều phải viết trình duyệt web, parser, tổng hợp và phân phối, ý tưởng không còn được tập trung phát triển.
+- **01 / Phục vụ ai?:** Chỉ rõ người dùng và việc họ cần hoàn thành.
+- **02 / Bàn giao gì?:** Xác định kết quả, file và tiêu chí nghiệm thu.
+- **03 / Cần năng lực nào?:** Chọn Capacity từ Marketplace và thiết kế recipe.
+- **04 / Sử dụng thế nào?:** Tự chạy, kiểm thử; chia sẻ khi nền tảng hỗ trợ.
 
-**Differentiation:** Builder thiết kế recipe tạo ra kết quả; Provider cung cấp năng lực thực thi từng phần.
+## Ví dụ và nguyên tắc
 
-## Cách thực hiện
+Ví dụ: bản tin hạ tầng sáng mỗi ngày, thu thập nguồn đã duyệt, tóm tắt thay đổi đáng chú ý và gợi ý ứng dụng vào sales. Builder quyết định thế nào là bản tin hữu ích.
 
-### 1. Xác định kết quả
+## Bắt đầu
 
-Mô tả người dùng, tác vụ, artifact và tiêu chí nghiệm thu.
+**Trao đổi ý tưởng giải pháp**: mailto:info@kabin.cloud?subject=Solution%20Builder
 
-### 2. Tìm Capacity
+- Chọn Capacity: /vi/marketplace/
+- Xem kiến trúc Solutions: /vi/solutions/
+- Tạo năng lực: /vi/developers/
 
-Đánh giá skill, plugin, model, toolkit và API theo hợp đồng, runtime, bằng chứng và quote.
+## Trạng thái
 
-### 3. Ghép recipe
+Tính năng tự xây, phát hành recipe và thương mại hóa vẫn nằm trong lộ trình.
 
-Kết nối Capacity tương thích thành workflow có phiên bản, phê duyệt và quy tắc phục hồi.
-
-### 4. Tự dùng
-
-Chạy trong công việc riêng, kiểm tra kết quả và hoàn thiện tiêu chí.
-
-### 5. Đưa lên Exchange
-
-Khi được hỗ trợ, chia sẻ Outcome Package để người khác tìm và dùng; điều khoản thương mại thuộc lộ trình.
-
-## Ví dụ minh họa
-
-“Mỗi sáng tổng hợp thay đổi hạ tầng gần khu công nghiệp và giải thích tác động đến đội sales.” Builder xác định chính sách nguồn, tiêu chí chọn tin và định dạng đầu ra. Kabin có thể phối hợp các Capacity thu thập, phân tích, định dạng và gửi theo lịch.
-
-## Ranh giới và trách nhiệm
-
-1. Lời hứa và nhóm người dùng rõ ràng
-2. Hợp đồng đã kiểm chứng cho Capacity cần dùng
-3. Con người duyệt tác động quan trọng
-4. Recipe có phiên bản và tiêu chí nghiệm thu
-
-## Anh có ý tưởng muốn biến thành giải pháp dùng lặp lại?
-
-Hãy mô tả người cần dùng, vấn đề và kết quả mẫu. Ta có thể thảo luận recipe ban đầu và những Capacity còn thiếu.
-
-Email: info@kabin.cloud · Phone: 0974744299
-
-## Tình trạng cung cấp
-
-Tự xây, đăng tải giải pháp và chia sẻ doanh thu là tính năng hệ sinh thái theo lộ trình, chưa hoạt động trên website tĩnh.
-
-Operating company VI: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY. English display translation: K’UNITY Green Technology Investment Company Limited (pending registration certificate verification).
+Contact: info@kabin.cloud | 0974744299.

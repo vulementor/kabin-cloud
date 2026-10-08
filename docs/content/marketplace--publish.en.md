@@ -2,48 +2,32 @@
 page: marketplace/publish
 locale: en
 route: /marketplace/publish/
-status: published-informational
-content_type: website
+status: editorial-review
+narrative: capability-contract
 ---
 
-# Publish a Capacity
+# Publish a Capacity, safely
 
-Understand the planned publishing path for a provider-defined capability.
+A listing must describe a verifiable execution contract, not an untested README.
 
-## Positioning
-A future directory of reusable capabilities for real work.
+## Contract overview
 
-## Content pillars
-### 1. Define the contract
-Document inputs, outputs and limits.
+- Input: Candidate repository + license
+- Output: Release / offer proposal
+- Validation: Independent validation and admission
 
-### 2. Prepare validation
-Describe safe failure and retry behavior.
+## Scope
 
-### 3. Review before listing
-Publishing is not enabled on this static site.
+Public discovery and permission to execute are separate. GitHub source is untrusted until reviewed and sandboxed.
 
-## Related navigation
-- [Discover Capacity](/marketplace/)
-- [AI Agents](/marketplace/agents/)
-- [Workflow Capacities](/marketplace/workflows/)
-- [Tools & APIs](/marketplace/tools/)
-- [Media & Creative](/marketplace/creative/)
-- [Browser & Computer](/marketplace/automation/)
-- [Data & Research](/marketplace/data/)
-- [Provider Program](/marketplace/providers/)
+## Example
 
-## Contact
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+Submit a scene detection SDK with sample input/output, runtime requirements and reproducible test results.
 
-## Corporate identity
-- Brand: Kabin Agent
-- Displayed operator: K’UNITY Green Technology Investment Company Limited
-- Vietnamese registered name provided by operator: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- English display translation pending certificate verification: K’UNITY Green Technology Investment Company Limited
+## Action
 
-## Editorial constraints
-- Informational website only: does not provide capacity purchasing, accounts, production API or payments.
-- No unverified performance metrics, endorsements, partnerships or certifications.
-- English company display translation remains subject to confirmation against official incorporation records.
+Prepare a provider submission
+
+Links: /provide-capacity/ and /marketplace/.
+
+**Availability:** Capability type / illustrative contract, not a purchasable listing. Contact: info@kabin.cloud.
