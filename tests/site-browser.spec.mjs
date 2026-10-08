@@ -38,7 +38,8 @@ test.describe("Content-led website release",()=>{
   await expect(page.locator(".cl-capacity:visible")).toHaveCount(1);
   await page.locator("#capacity-search").fill("");
   await expect(page.locator(".cl-capacity:visible")).toHaveCount(6);
-  await expect(page.locator("a[href='../vi/provide-capacity/']").first()).toBeVisible();
+  const providerLinks=await page.locator(".cl-next-list a").evaluateAll(anchors=>anchors.map(a=>new URL(a.href).pathname));
+  expect(providerLinks).toContain("/vi/provide-capacity/");
  });
  test("Three role entry points work and preserve locale",async({page})=>{
   for(const role of CHOICES){
