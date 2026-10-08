@@ -2,47 +2,31 @@
 page: resources
 locale: en
 route: /resources/
-status: published-informational
-content_type: website
+status: editorial-review
 ---
 
-# Resource Center
+# Resources by role
 
-Explore educational material about hybrid execution and accountable AI operations.
+Find what you need, without reading the whole website.
 
-## Positioning
-Guides, concepts and updates to understand the emerging Agentic workforce.
+## Need a result
 
-## Content pillars
-### 1. Start with concepts
-Understand what agents and routines do.
+Understand how solutions work.
 
-### 2. Explore applications
-Map patterns to actual team work.
+Link: /solutions/
 
-### 3. Follow releases
-Distinguish documentation from future plans.
+## Have an idea
 
-## Related navigation
-- [Blog & Insights](/blog/)
-- [Documentation Hub](/docs/)
-- [Use Cases](/use-cases/)
-- [Case Studies](/case-studies/)
-- [Frequently Asked Questions](/faq/)
-- [Product Updates](/updates/)
-- [Support & Contact](/support/)
+Build an Outcome Recipe.
 
-## Contact
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+Link: /build-solutions/
 
-## Corporate identity
-- Brand: Kabin Agent
-- Displayed operator: K’UNITY Green Technology Investment Company Limited
-- Vietnamese registered name provided by operator: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- English display translation pending certificate verification: K’UNITY Green Technology Investment Company Limited
+## Create a tool
 
-## Editorial constraints
-- Informational website only: does not provide capacity purchasing, accounts, production API or payments.
-- No unverified performance metrics, endorsements, partnerships or certifications.
-- English company display translation remains subject to confirmation against official incorporation records.
+Define a Capacity Contract.
+
+Link: /developers/
+
+**Availability:** Educational guides, not live integrations.
+
+Contact: info@kabin.cloud.

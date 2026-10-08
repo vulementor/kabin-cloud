@@ -2,47 +2,26 @@
 page: platform/workflows
 locale: vi
 route: /vi/platform/workflows/
-status: published-informational
-content_type: website
+status: editorial-review
+narrative: one-architecture-layer
 ---
 
-# Workflow và Routine
+# ExecutionRecipe: tái sử dụng cách thực hiện đã kiểm chứng.
 
-Thiết kế quy trình lặp lại với ranh giới rõ và khả năng phục hồi có kiểm soát.
+Giải pháp nên ưu tiên recipe đã chấp nhận thay vì mỗi lần lập kế hoạch lại.
 
-## Định vị
-Khám phá mô hình vận hành giúp AI thực thi công việc đáng tin cậy.
+## Responsibility
 
-## Các điểm nội dung
-### 1. Định nghĩa công thức
-Làm rõ các bước và phụ thuộc.
+1. Recipe có phiên bản
+2. Bindings Capacity
+3. Kiểm tra nghiệm thu
 
-### 2. Lên lịch có trách nhiệm
-Chỉ chạy theo điều kiện được duyệt.
+## Example
 
-### 3. Xử lý lỗi
-Ghi kết quả và chuyển các tình huống bất định.
+Recipe báo cáo tuần chỉ tái dùng khi nguồn, hợp đồng và quyền vẫn hợp lệ.
 
-## Điều hướng liên quan
-- [Hybrid Agentic + Routine](/vi/platform/hybrid-intelligence/)
-- [Điều phối Agent](/vi/platform/orchestration/)
-- [Bộ máy Capacity](/vi/platform/capacity-engine/)
-- [Đồ thị trí nhớ](/vi/platform/memory-graph/)
-- [Năng lực Browser và Computer](/vi/platform/computer-use/)
-- [Quản trị và bảo mật](/vi/platform/governance/)
-- [Kiến trúc tham chiếu](/vi/platform/architecture/)
+## Read more
 
-## Liên hệ
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+/vi/build-solutions/ · /vi/solutions/ · /vi/marketplace/
 
-## Nhận diện doanh nghiệp
-- Brand: Kabin Agent
-- Pháp nhân hiển thị: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- Pháp nhân tiếng Việt: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- Tên tiếng Anh hiển thị: K’UNITY Green Technology Investment Company Limited
-
-## Ghi chú biên tập
-- Website chỉ mang tính giới thiệu, không cho phép mua bán Capacity, cung cấp tài khoản, API production hoặc thanh toán.
-- Không công bố số liệu, đối tác, chứng nhận hoặc thành tích chưa được xác minh.
-- Bản dịch tên công ty tiếng Anh chưa được đối chiếu giấy chứng nhận đăng ký doanh nghiệp.
+Status: conceptual architecture. Contact info@kabin.cloud.

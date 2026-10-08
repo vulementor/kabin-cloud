@@ -2,48 +2,26 @@
 page: developers/publishing
 locale: en
 route: /developers/publishing/
-status: published-informational
-content_type: website
+status: editorial-review
+narrative: capacity-developer-reference
 ---
 
-# Build & Publish Process
+# Submit a Capacity candidate, not an unreviewed plugin.
 
-A future publishing workflow with explicit review and validation stages.
+Admission separates source discovery, evaluation, evidence and executable offers.
 
-## Positioning
-Technical concepts and integration patterns for builders, not a claim of released APIs.
+## Contract requirements
 
-## Content pillars
-### 1. Prepare the package
-Include manifest and documentation.
+1. Declare provenance
+2. Provide test contract
+3. Request evaluation
 
-### 2. Run validation
-Test failure modes and permissions.
+## Example
 
-### 3. Request review
-Publishing is currently a roadmap feature.
+A GitHub repository is an untrusted candidate until sandbox probes, independent verification and approval.
 
-## Related navigation
-- [Developer Ecosystem](/developers/)
-- [Integration Quickstart](/developers/quickstart/)
-- [Capacity SDK Roadmap](/developers/sdk/)
-- [API Design Direction](/developers/api/)
-- [Capacity Manifest Concept](/developers/manifest/)
-- [Runtime Integration](/developers/runtime/)
-- [Integration Examples](/developers/examples/)
-- [Developer Changelog](/developers/changelog/)
+## Next
 
-## Contact
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+/provide-capacity/ and /provide-capacity/.
 
-## Corporate identity
-- Brand: Kabin Agent
-- Displayed operator: K’UNITY Green Technology Investment Company Limited
-- Vietnamese registered name provided by operator: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- English display translation pending certificate verification: K’UNITY Green Technology Investment Company Limited
-
-## Editorial constraints
-- Informational website only: does not provide capacity purchasing, accounts, production API or payments.
-- No unverified performance metrics, endorsements, partnerships or certifications.
-- English company display translation remains subject to confirmation against official incorporation records.
+Availability: conceptual, no live API/SDK. Contact info@kabin.cloud.

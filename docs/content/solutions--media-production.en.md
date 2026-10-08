@@ -2,47 +2,41 @@
 page: solutions/media-production
 locale: en
 route: /solutions/media-production/
-status: published-informational
-content_type: website
+status: editorial-review
+narrative: specific-outcome-recipe
 ---
 
-# Media Production
+# Video production with controlled revisions.
 
-Connect storyboard, image, voice, subtitle and render steps into traceable work.
+A usable media solution must keep scene, voice, subtitle and render versions aligned.
 
-## Positioning
-Use a hybrid AI workforce to coordinate workflows around existing teams.
+## Execution flow
 
-## Content pillars
-### 1. Pre-production
-Translate ideas into scoped assets.
+1. Approved storyboard
+2. Scenes + voice + edit
+3. Video + caption files
+4. Quality check + signoff
 
-### 2. Rendering routines
-Use predictable tooling for repeatable work.
+## Solution steps
 
-### 3. Quality control
-Validate output before handoff.
+### Lock the approved story
 
-## Related navigation
-- [AI Workforce Solutions](/solutions/)
-- [Marketing Operations](/solutions/marketing/)
-- [Social Media Workflows](/solutions/social-media/)
-- [Sales Operations](/solutions/sales/)
-- [Research & Intelligence](/solutions/research/)
-- [Software Engineering & QA](/solutions/software-engineering/)
-- [Enterprise Automation](/solutions/enterprise-automation/)
+Define scenes, duration, target aspect and claims.
 
-## Contact
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+### Connect media capacities
 
-## Corporate identity
-- Brand: Kabin Agent
-- Displayed operator: K’UNITY Green Technology Investment Company Limited
-- Vietnamese registered name provided by operator: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- English display translation pending certificate verification: K’UNITY Green Technology Investment Company Limited
+Generate or process visuals, audio and captions with tracked dependencies.
 
-## Editorial constraints
-- Informational website only: does not provide capacity purchasing, accounts, production API or payments.
-- No unverified performance metrics, endorsements, partnerships or certifications.
-- English company display translation remains subject to confirmation against official incorporation records.
+### Verify the export
+
+Probe duration, dimensions, file integrity and approved content.
+
+## Outcome example
+
+Example: changing Scene 7 should trigger rechecking affected narration, subtitle timings and exported cuts, not a blind full restart.
+
+## Next action
+
+Design a media recipe → /build-solutions/ · /marketplace/
+
+Status: illustrative. Not live paid execution. Contact info@kabin.cloud.

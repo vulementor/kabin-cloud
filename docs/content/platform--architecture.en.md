@@ -2,47 +2,26 @@
 page: platform/architecture
 locale: en
 route: /platform/architecture/
-status: published-informational
-content_type: website
+status: editorial-review
+narrative: one-architecture-layer
 ---
 
-# Reference Architecture
+# Platform architecture: Fabric plans, Core executes.
 
-Explore control, execution and continuity planes without relying on one model.
+Kabin connects three sides without making providers the authority over user data.
 
-## Positioning
-Understand the operating model behind dependable AI work.
+## Responsibility
 
-## Content pillars
-### 1. Control plane
-Handle intent, policies and orchestration.
+1. Intent & Work Order
+2. Fabric discovery + composition
+3. Core-authorized execution
 
-### 2. Execution plane
-Connect APIs, workers and deterministic engines.
+## Example
 
-### 3. Continuity plane
-Preserve memory, artifacts and receipts.
+A Builder's recipe selects eligible capacities, but Kabin Core still owns permission checks, job identity, effect gates and status.
 
-## Related navigation
-- [Hybrid Agentic + Routine](/platform/hybrid-intelligence/)
-- [Agent Orchestration](/platform/orchestration/)
-- [Capacity Engine](/platform/capacity-engine/)
-- [Memory Graph](/platform/memory-graph/)
-- [Workflows & Routines](/platform/workflows/)
-- [Browser & Computer Capacity](/platform/computer-use/)
-- [Governance & Security](/platform/governance/)
+## Read more
 
-## Contact
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+/solutions/ · /solutions/ · /marketplace/
 
-## Corporate identity
-- Brand: Kabin Agent
-- Displayed operator: K’UNITY Green Technology Investment Company Limited
-- Vietnamese registered name provided by operator: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- English display translation pending certificate verification: K’UNITY Green Technology Investment Company Limited
-
-## Editorial constraints
-- Informational website only: does not provide capacity purchasing, accounts, production API or payments.
-- No unverified performance metrics, endorsements, partnerships or certifications.
-- English company display translation remains subject to confirmation against official incorporation records.
+Status: conceptual architecture. Contact info@kabin.cloud.

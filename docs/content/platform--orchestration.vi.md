@@ -2,47 +2,26 @@
 page: platform/orchestration
 locale: vi
 route: /vi/platform/orchestration/
-status: published-informational
-content_type: website
+status: editorial-review
+narrative: one-architecture-layer
 ---
 
-# Điều phối Agent
+# Orchestration điều phối dưới quyền Kabin Core.
 
-Chuyển mục tiêu tổng quát thành quá trình thực thi phối hợp qua nhiều Capacity.
+Kế hoạch phải đọc được, executor có giới hạn và tác động ngoài phải đối soát.
 
-## Định vị
-Khám phá mô hình vận hành giúp AI thực thi công việc đáng tin cậy.
+## Responsibility
 
-## Các điểm nội dung
-### 1. Phân tách công việc
-Chia kết quả thành các bước có phạm vi rõ.
+1. Outcome graph
+2. Work order và checkpoint
+3. Đầu ra đã kiểm chứng
 
-### 2. Chọn năng lực
-Ghép tác vụ với công cụ và runtime phù hợp.
+## Example
 
-### 3. Kiểm chứng tiến độ
-Giữ trạng thái và bằng chứng tại từng điểm.
+Kabin có thể chọn nhiều Provider, nhưng retry và quyền vẫn thuộc Core hiện hữu.
 
-## Điều hướng liên quan
-- [Hybrid Agentic + Routine](/vi/platform/hybrid-intelligence/)
-- [Bộ máy Capacity](/vi/platform/capacity-engine/)
-- [Đồ thị trí nhớ](/vi/platform/memory-graph/)
-- [Workflow và Routine](/vi/platform/workflows/)
-- [Năng lực Browser và Computer](/vi/platform/computer-use/)
-- [Quản trị và bảo mật](/vi/platform/governance/)
-- [Kiến trúc tham chiếu](/vi/platform/architecture/)
+## Read more
 
-## Liên hệ
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+/vi/platform/architecture/ · /vi/solutions/ · /vi/marketplace/
 
-## Nhận diện doanh nghiệp
-- Brand: Kabin Agent
-- Pháp nhân hiển thị: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- Pháp nhân tiếng Việt: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- Tên tiếng Anh hiển thị: K’UNITY Green Technology Investment Company Limited
-
-## Ghi chú biên tập
-- Website chỉ mang tính giới thiệu, không cho phép mua bán Capacity, cung cấp tài khoản, API production hoặc thanh toán.
-- Không công bố số liệu, đối tác, chứng nhận hoặc thành tích chưa được xác minh.
-- Bản dịch tên công ty tiếng Anh chưa được đối chiếu giấy chứng nhận đăng ký doanh nghiệp.
+Status: conceptual architecture. Contact info@kabin.cloud.

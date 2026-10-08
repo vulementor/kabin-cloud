@@ -2,63 +2,41 @@
 page: solutions/marketing
 locale: en
 route: /solutions/marketing/
-status: rewritten-review-pending
-narrative: PAS + illustrative SSS
+status: editorial-review
+narrative: specific-outcome-recipe
 ---
 
-# The campaign isn't stuck on ideas. It's stuck between handoffs.
+# Marketing production, from brief to approved assets.
 
-Your team already has a brief, tools and talent. The friction begins when the research, scripts, visuals, approvals and publishing status live in different places.
+Campaign teams need a reviewable package, not disconnected scripts, images and captions.
 
-## STAR → STORY → SOLUTION
+## Execution flow
 
-### Imagine the person responsible for the entire launch.
-It's Monday. A marketing lead receives a product brief and a deadline. The team needs audience research, a short video, captions and two platform-specific versions. Each specialist can do their part, yet the lead is accountable for the final outcome.
+1. Brief + approved claims
+2. Script → assets → captions
+3. Review packet
+4. Human approves publishing
 
-### Every handoff quietly creates another unknown.
-The research lives in a document, the designer has the newer visual, the editor exports a fresh clip and someone asks whether the scheduled post actually went live. The lead is no longer reviewing strategy; they're reconciling versions and chasing status.
+## Solution steps
 
-### Give the workflow a coordinator, not another inbox.
-In Kabin's proposed hybrid model, an Agent interprets the brief and chooses steps. Stable routines handle rendering, packaging and routine checks. A reviewer approves consequential external actions, and evidence records what actually happened. The team remains responsible; the system reduces the fragmentation.
+### Define channels and tone
 
-## From one approved brief to a reviewable release packet.
-A conceptual flow. No claim of automatic publication or verified product performance.
+The Builder sets formats, source claims and acceptance rules.
 
-- **01 / FRAME:** Clarify the audience, offer, claims and platform requirements.
-- **02 / PLAN:** Select research, storyboarding and creative Capacity for the brief.
-- **03 / PRODUCE:** Run predictable asset and caption routines with quality checks.
-- **04 / REVIEW:** Make human sign-off an explicit step, not a message lost in chat.
-- **05 / VERIFY:** Keep output artifacts and confirmed publication receipts together.
+### Compose production Capacity
 
-## Automation should move fast. Authority should move deliberately.
-### Agentic judgment
-If feedback changes the campaign direction, reasoning updates the plan.
+Copy, visual, voice and rendering providers each supply bounded steps.
 
-### Routine reliability
-If a video must be exported in three formats, reuse a validated rendering routine.
+### Verify before release
 
-### Human accountability
-If a post changes a public claim, require the authorized person to approve it.
+Check final files and human approval before external posts.
 
-### Truthful state
-If publishing returns an uncertain result, verify it before retrying.
+## Outcome example
 
-## Start with a workflow you can describe.
-1. One campaign objective and the intended audience.
-2. The assets and channels that actually matter.
-3. The step that needs a named human reviewer.
-4. The evidence you need to call the job finished.
+Example: one launch brief produces a 9:16 video, two captions and a review checklist. Publishing is a separate authorized step.
 
-## Action
+## Next action
 
-### You don't need more tabs. You need a clearer handoff.
-Describe your current content production chain and we'll discuss where Agentic coordination, repeatable routines and human review can fit.
+Build a marketing solution → /build-solutions/ · /marketplace/
 
-Contact: info@kabin.cloud | +84 974 744 299
-
-## Compliance note
-Illustrative team scenario, not a real customer testimonial or claim of deployed automation.
-
-- Copy and bespoke visual are for editorial review; no claims of live Marketplace, SDK or production API.
-- Operator VI: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY.
-- Operator EN display: K’UNITY Green Technology Investment Company Limited (translation pending certificate verification).
+Status: illustrative. Not live paid execution. Contact info@kabin.cloud.

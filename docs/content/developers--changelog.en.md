@@ -2,48 +2,26 @@
 page: developers/changelog
 locale: en
 route: /developers/changelog/
-status: published-informational
-content_type: website
+status: editorial-review
+narrative: capacity-developer-reference
 ---
 
-# Developer Changelog
+# Keep Capacity releases traceable.
 
-A dedicated home for future documented API and integration releases.
+A changed contract must not silently break solutions that depend on its old behavior.
 
-## Positioning
-Technical concepts and integration patterns for builders, not a claim of released APIs.
+## Contract requirements
 
-## Content pillars
-### 1. Versioned notes
-Record shipped changes, not intentions.
+1. Version intent
+2. Compatibility impact
+3. Evidence by release
 
-### 2. Migration guidance
-Explain compatibility impact.
+## Example
 
-### 3. Release evidence
-Link to authoritative source when available.
+If a scene detector changes timestamps from seconds to milliseconds, declare the breaking change and retest recipes.
 
-## Related navigation
-- [Developer Ecosystem](/developers/)
-- [Integration Quickstart](/developers/quickstart/)
-- [Capacity SDK Roadmap](/developers/sdk/)
-- [API Design Direction](/developers/api/)
-- [Capacity Manifest Concept](/developers/manifest/)
-- [Build & Publish Process](/developers/publishing/)
-- [Runtime Integration](/developers/runtime/)
-- [Integration Examples](/developers/examples/)
+## Next
 
-## Contact
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+/developers/runtime/ and /provide-capacity/.
 
-## Corporate identity
-- Brand: Kabin Agent
-- Displayed operator: K’UNITY Green Technology Investment Company Limited
-- Vietnamese registered name provided by operator: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- English display translation pending certificate verification: K’UNITY Green Technology Investment Company Limited
-
-## Editorial constraints
-- Informational website only: does not provide capacity purchasing, accounts, production API or payments.
-- No unverified performance metrics, endorsements, partnerships or certifications.
-- English company display translation remains subject to confirmation against official incorporation records.
+Availability: conceptual, no live API/SDK. Contact info@kabin.cloud.

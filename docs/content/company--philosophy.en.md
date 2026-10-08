@@ -2,48 +2,23 @@
 page: company/philosophy
 locale: en
 route: /company/philosophy/
-status: published-informational
-content_type: website
+status: editorial-review
 ---
 
-# Technology Philosophy
+# Useful outcomes. Open contribution. Clear authority.
 
-Build dependable systems by choosing judgment, repetition and oversight deliberately.
+Kabin's philosophy is to make community-built capacities usable without giving untrusted tools unrestricted power.
 
-## Positioning
-The people-centered philosophy and company behind Kabin Agent.
+## Outcome first
 
-## Content pillars
-### 1. Reliable before autonomous
-Verify outcomes rather than chase demos.
+Users describe the job, not the plugin names.
 
-### 2. Reasoning where necessary
-Avoid spending judgment on fixed rules.
+## Community contribution
 
-### 3. Memory before repetition
-Recover context before restarting.
+Builders package solutions; Providers create the reusable tools.
 
-## Related navigation
-- [About Kabin Agent](/company/)
-- [Vision & Mission](/company/vision/)
-- [Legal Entity & Identity](/company/legal-entity/)
-- [Contact Kabin](/contact/)
-- [Partners & Ecosystem](/partners/)
-- [Privacy Notice](/legal/privacy/)
-- [Website Terms](/legal/terms/)
-- [Cookie Information](/legal/cookies/)
+## Verifiable execution
 
-## Contact
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+Contracts, policy gates, human approval and receipts matter.
 
-## Corporate identity
-- Brand: Kabin Agent
-- Displayed operator: K’UNITY Green Technology Investment Company Limited
-- Vietnamese registered name provided by operator: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- English display translation pending certificate verification: K’UNITY Green Technology Investment Company Limited
-
-## Editorial constraints
-- Informational website only: does not provide capacity purchasing, accounts, production API or payments.
-- No unverified performance metrics, endorsements, partnerships or certifications.
-- English company display translation remains subject to confirmation against official incorporation records.
+Next: /company/vision/ · Contact info@kabin.cloud · 0974744299.

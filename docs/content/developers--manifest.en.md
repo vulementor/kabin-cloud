@@ -2,48 +2,26 @@
 page: developers/manifest
 locale: en
 route: /developers/manifest/
-status: published-informational
-content_type: website
+status: editorial-review
+narrative: capacity-developer-reference
 ---
 
-# Capacity Manifest Concept
+# Define the Capacity contract.
 
-Define a readable contract for each reusable unit of work.
+Make task, version, input, output, permissions and runtime inspectable before integration.
 
-## Positioning
-Technical concepts and integration patterns for builders, not a claim of released APIs.
+## Contract requirements
 
-## Content pillars
-### 1. Identity and scope
-State name, purpose and owner.
+1. Identity & version
+2. Typed input / output
+3. Permissions & side effects
 
-### 2. Inputs and outputs
-Describe accepted and emitted artifacts.
+## Example
 
-### 3. Governance
-Declare permission and approval needs.
+A scene detection tool reads video/mp4 and emits timestamped scenes. This is a concept schema, not a released Kabin API format.
 
-## Related navigation
-- [Developer Ecosystem](/developers/)
-- [Integration Quickstart](/developers/quickstart/)
-- [Capacity SDK Roadmap](/developers/sdk/)
-- [API Design Direction](/developers/api/)
-- [Build & Publish Process](/developers/publishing/)
-- [Runtime Integration](/developers/runtime/)
-- [Integration Examples](/developers/examples/)
-- [Developer Changelog](/developers/changelog/)
+## Next
 
-## Contact
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+/developers/runtime/ and /provide-capacity/.
 
-## Corporate identity
-- Brand: Kabin Agent
-- Displayed operator: K’UNITY Green Technology Investment Company Limited
-- Vietnamese registered name provided by operator: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- English display translation pending certificate verification: K’UNITY Green Technology Investment Company Limited
-
-## Editorial constraints
-- Informational website only: does not provide capacity purchasing, accounts, production API or payments.
-- No unverified performance metrics, endorsements, partnerships or certifications.
-- English company display translation remains subject to confirmation against official incorporation records.
+Availability: conceptual, no live API/SDK. Contact info@kabin.cloud.

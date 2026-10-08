@@ -2,47 +2,31 @@
 page: case-studies
 locale: en
 route: /case-studies/
-status: published-informational
-content_type: website
+status: editorial-review
 ---
 
-# Case Studies
+# Verified case studies are not published yet
 
-A future library of customer-verified implementations; no unverified customer stories are presented.
+We will not invent customers or ROI numbers.
 
-## Positioning
-Guides, concepts and updates to understand the emerging Agentic workforce.
+## Proof
 
-## Content pillars
-### 1. Evidence first
-Publish only approved and verifiable results.
+Customer permission and real task context.
 
-### 2. Context matters
-Explain the workflow and deployment boundary.
+Link: /company/
 
-### 3. Lessons learned
-Share limits, not just successes.
+## Measurement
 
-## Related navigation
-- [Resource Center](/resources/)
-- [Blog & Insights](/blog/)
-- [Documentation Hub](/docs/)
-- [Use Cases](/use-cases/)
-- [Frequently Asked Questions](/faq/)
-- [Product Updates](/updates/)
-- [Support & Contact](/support/)
+Actual output, effort, costs and failures.
 
-## Contact
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+Link: /platform/governance/
 
-## Corporate identity
-- Brand: Kabin Agent
-- Displayed operator: K’UNITY Green Technology Investment Company Limited
-- Vietnamese registered name provided by operator: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- English display translation pending certificate verification: K’UNITY Green Technology Investment Company Limited
+## Examples today
 
-## Editorial constraints
-- Informational website only: does not provide capacity purchasing, accounts, production API or payments.
-- No unverified performance metrics, endorsements, partnerships or certifications.
-- English company display translation remains subject to confirmation against official incorporation records.
+Clearly labeled illustrative cases.
+
+Link: /use-cases/
+
+**Availability:** Examples are not customer achievements.
+
+Contact: info@kabin.cloud.

@@ -2,47 +2,23 @@
 page: support
 locale: en
 route: /support/
-status: published-informational
-content_type: website
+status: editorial-review
 ---
 
-# Support & Contact
+# Support and product feedback.
 
-Find the appropriate human contact path for platform questions or website feedback.
+Share a specific URL, issue, tool or intended result so we can route the question.
 
-## Positioning
-Guides, concepts and updates to understand the emerging Agentic workforce.
+## Website issue
 
-## Content pillars
-### 1. Product questions
-Explain your use case and required result.
+Include page URL, language and device.
 
-### 2. Technical context
-Include the affected page or workflow.
+## Capability question
 
-### 3. Sensitive information
-Do not send credentials or personal secrets by email.
+Attach repository and example input/output.
 
-## Related navigation
-- [Resource Center](/resources/)
-- [Blog & Insights](/blog/)
-- [Documentation Hub](/docs/)
-- [Use Cases](/use-cases/)
-- [Case Studies](/case-studies/)
-- [Frequently Asked Questions](/faq/)
-- [Product Updates](/updates/)
+## Product request
 
-## Contact
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+Describe who needs it, the deliverable and constraints.
 
-## Corporate identity
-- Brand: Kabin Agent
-- Displayed operator: K’UNITY Green Technology Investment Company Limited
-- Vietnamese registered name provided by operator: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- English display translation pending certificate verification: K’UNITY Green Technology Investment Company Limited
-
-## Editorial constraints
-- Informational website only: does not provide capacity purchasing, accounts, production API or payments.
-- No unverified performance metrics, endorsements, partnerships or certifications.
-- English company display translation remains subject to confirmation against official incorporation records.
+Next: /contact/ · Contact info@kabin.cloud · 0974744299.

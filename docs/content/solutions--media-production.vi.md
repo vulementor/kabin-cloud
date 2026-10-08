@@ -2,47 +2,41 @@
 page: solutions/media-production
 locale: vi
 route: /vi/solutions/media-production/
-status: published-informational
-content_type: website
+status: editorial-review
+narrative: specific-outcome-recipe
 ---
 
-# Sản xuất Media
+# Sản xuất video có kiểm soát phiên bản.
 
-Kết nối storyboard, ảnh, giọng đọc, phụ đề và dựng video thành luồng có thể truy vết.
+Giải pháp media phải giữ storyboard, giọng đọc, phụ đề và bản dựng nhất quán.
 
-## Định vị
-Dùng AI Workforce hybrid để kết nối quy trình xung quanh đội ngũ hiện hữu.
+## Đầu vào và đầu ra
 
-## Các điểm nội dung
-### 1. Tiền kỳ
-Chuyển ý tưởng thành tài nguyên có phạm vi.
+1. Storyboard duyệt
+2. Cảnh + giọng + dựng
+3. Video + file phụ đề
+4. QC + phê duyệt
 
-### 2. Routine dựng video
-Dùng công cụ xác định cho bước lặp.
+## Các bước của giải pháp
 
-### 3. Kiểm soát chất lượng
-Kiểm tra thành phẩm trước bàn giao.
+### Chốt câu chuyện
 
-## Điều hướng liên quan
-- [Giải pháp AI Workforce](/vi/solutions/)
-- [Vận hành Marketing](/vi/solutions/marketing/)
-- [Quy trình Mạng xã hội](/vi/solutions/social-media/)
-- [Vận hành Kinh doanh](/vi/solutions/sales/)
-- [Nghiên cứu và Phân tích](/vi/solutions/research/)
-- [Kỹ thuật Phần mềm và QA](/vi/solutions/software-engineering/)
-- [Tự động hóa Doanh nghiệp](/vi/solutions/enterprise-automation/)
+Xác định cảnh, thời lượng, tỷ lệ khung và thông điệp đã duyệt.
 
-## Liên hệ
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+### Kết nối Capacity media
 
-## Nhận diện doanh nghiệp
-- Brand: Kabin Agent
-- Pháp nhân hiển thị: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- Pháp nhân tiếng Việt: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- Tên tiếng Anh hiển thị: K’UNITY Green Technology Investment Company Limited
+Tạo hoặc xử lý hình, âm thanh và phụ đề có theo dõi phụ thuộc.
 
-## Ghi chú biên tập
-- Website chỉ mang tính giới thiệu, không cho phép mua bán Capacity, cung cấp tài khoản, API production hoặc thanh toán.
-- Không công bố số liệu, đối tác, chứng nhận hoặc thành tích chưa được xác minh.
-- Bản dịch tên công ty tiếng Anh chưa được đối chiếu giấy chứng nhận đăng ký doanh nghiệp.
+### Kiểm tra thành phẩm
+
+Probe thời lượng, kích thước, độ toàn vẹn và nội dung đã duyệt.
+
+## Ví dụ nghiệm thu
+
+Ví dụ sửa cảnh 7 cần kiểm lại giọng đọc, timing phụ đề và bản xuất liên quan, thay vì khởi động lại toàn bộ mù quáng.
+
+## Next action
+
+Thiết kế recipe Media → /vi/build-solutions/ · /vi/marketplace/
+
+Status: illustrative. Not live paid execution. Contact info@kabin.cloud.

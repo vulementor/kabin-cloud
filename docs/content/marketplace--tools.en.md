@@ -2,48 +2,32 @@
 page: marketplace/tools
 locale: en
 route: /marketplace/tools/
-status: published-informational
-content_type: website
+status: editorial-review
+narrative: capability-contract
 ---
 
-# Tools & APIs
+# Tools, APIs & SDK Capacity
 
-Connect existing software interfaces as composable capabilities.
+Connect existing services through explicit contracts and auth scopes.
 
-## Positioning
-A future directory of reusable capabilities for real work.
+## Contract overview
 
-## Content pillars
-### 1. Provider contracts
-Describe requirements and limits.
+- Input: Typed request + credentials
+- Output: Typed response / external effect
+- Validation: Schema, rate limits, scope and policy
 
-### 2. Scoped access
-Protect credentials and API permissions.
+## Scope
 
-### 3. Validation
-Check tool outputs before downstream actions.
+A connector that can read a CRM must not claim write access. Quote and authority depend on the exact operation.
 
-## Related navigation
-- [Discover Capacity](/marketplace/)
-- [AI Agents](/marketplace/agents/)
-- [Workflow Capacities](/marketplace/workflows/)
-- [Media & Creative](/marketplace/creative/)
-- [Browser & Computer](/marketplace/automation/)
-- [Data & Research](/marketplace/data/)
-- [Publish a Capacity](/marketplace/publish/)
-- [Provider Program](/marketplace/providers/)
+## Example
 
-## Contact
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+A data-export API can feed a report without gaining permission to email customers.
 
-## Corporate identity
-- Brand: Kabin Agent
-- Displayed operator: K’UNITY Green Technology Investment Company Limited
-- Vietnamese registered name provided by operator: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- English display translation pending certificate verification: K’UNITY Green Technology Investment Company Limited
+## Action
 
-## Editorial constraints
-- Informational website only: does not provide capacity purchasing, accounts, production API or payments.
-- No unverified performance metrics, endorsements, partnerships or certifications.
-- English company display translation remains subject to confirmation against official incorporation records.
+Provide a connector
+
+Links: /build-solutions/ and /marketplace/.
+
+**Availability:** Capability type / illustrative contract, not a purchasable listing. Contact: info@kabin.cloud.

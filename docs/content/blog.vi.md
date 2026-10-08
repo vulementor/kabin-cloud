@@ -2,47 +2,31 @@
 page: blog
 locale: vi
 route: /vi/blog/
-status: published-informational
-content_type: website
+status: editorial-review
 ---
 
-# Blog và Góc nhìn
+# Góc nhìn thực thi AI
 
-Các góc nhìn biên tập về Agent, workflow, Capacity và trí nhớ vận hành.
+Khái niệm hữu ích, không thổi phồng tính năng.
 
-## Định vị
-Hướng dẫn, kiến thức và cập nhật để hiểu mô hình lao động Agentic.
+## Solution và Tool
 
-## Các điểm nội dung
-### 1. Vượt khỏi chat
-Vì sao thực thi cần hơn prompt.
+Kết quả không phải tên plugin.
 
-### 2. Vận hành Hybrid
-Điểm giao giữa tự động hóa và suy luận.
+Link: /vi/solutions/
 
-### 3. Giám sát
-Cách thiết kế checkpoint hữu ích.
+## Capacity Contract
 
-## Điều hướng liên quan
-- [Trung tâm Tài nguyên](/vi/resources/)
-- [Trung tâm Tài liệu](/vi/docs/)
-- [Tình huống Ứng dụng](/vi/use-cases/)
-- [Nghiên cứu Tình huống](/vi/case-studies/)
-- [Câu hỏi Thường gặp](/vi/faq/)
-- [Cập nhật Sản phẩm](/vi/updates/)
-- [Hỗ trợ và Liên hệ](/vi/support/)
+Mô tả công cụ làm gì.
 
-## Liên hệ
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+Link: /vi/developers/manifest/
 
-## Nhận diện doanh nghiệp
-- Brand: Kabin Agent
-- Pháp nhân hiển thị: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- Pháp nhân tiếng Việt: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- Tên tiếng Anh hiển thị: K’UNITY Green Technology Investment Company Limited
+## Thao tác chưa rõ
 
-## Ghi chú biên tập
-- Website chỉ mang tính giới thiệu, không cho phép mua bán Capacity, cung cấp tài khoản, API production hoặc thanh toán.
-- Không công bố số liệu, đối tác, chứng nhận hoặc thành tích chưa được xác minh.
-- Bản dịch tên công ty tiếng Anh chưa được đối chiếu giấy chứng nhận đăng ký doanh nghiệp.
+Đối soát trước retry.
+
+Link: /vi/platform/governance/
+
+**Availability:** Chỉ là chủ đề giáo dục, không dựng bài báo giả.
+
+Contact: info@kabin.cloud.

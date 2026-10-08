@@ -2,47 +2,31 @@
 page: updates
 locale: en
 route: /updates/
-status: published-informational
-content_type: website
+status: editorial-review
 ---
 
-# Product Updates
+# Updates require verified release evidence
 
-Follow confirmed changes to the Kabin public website and product communications.
+A roadmap document is not a shipped feature.
 
-## Positioning
-Guides, concepts and updates to understand the emerging Agentic workforce.
+## Product model
 
-## Content pillars
-### 1. Release notes
-Distinguish shipped pages from planned capabilities.
+The three-sided ecosystem is documented.
 
-### 2. Revision history
-Link updates to source when practical.
+Link: /platform/
 
-### 3. Next releases
-Share plans as plans, not delivery promises.
+## Website
 
-## Related navigation
-- [Resource Center](/resources/)
-- [Blog & Insights](/blog/)
-- [Documentation Hub](/docs/)
-- [Use Cases](/use-cases/)
-- [Case Studies](/case-studies/)
-- [Frequently Asked Questions](/faq/)
-- [Support & Contact](/support/)
+Bilingual role guides are published.
 
-## Contact
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+Link: /resources/
 
-## Corporate identity
-- Brand: Kabin Agent
-- Displayed operator: K’UNITY Green Technology Investment Company Limited
-- Vietnamese registered name provided by operator: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- English display translation pending certificate verification: K’UNITY Green Technology Investment Company Limited
+## Contract changes
 
-## Editorial constraints
-- Informational website only: does not provide capacity purchasing, accounts, production API or payments.
-- No unverified performance metrics, endorsements, partnerships or certifications.
-- English company display translation remains subject to confirmation against official incorporation records.
+Capacity versioning principles.
+
+Link: /developers/changelog/
+
+**Availability:** No unverified billing, payout or live SDK claims.
+
+Contact: info@kabin.cloud.

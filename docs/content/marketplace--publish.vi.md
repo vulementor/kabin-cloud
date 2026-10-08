@@ -2,48 +2,32 @@
 page: marketplace/publish
 locale: vi
 route: /vi/marketplace/publish/
-status: published-informational
-content_type: website
+status: editorial-review
+narrative: capability-contract
 ---
 
-# Đăng tải Capacity
+# Đăng Capacity có kiểm chứng
 
-Tìm hiểu hướng xây dựng quy trình đưa Capacity của nhà cung cấp lên hệ sinh thái.
+Listing phải mô tả hợp đồng thực thi, không chỉ sao chép README chưa kiểm thử.
 
-## Định vị
-Định hướng danh mục năng lực tái sử dụng để giải quyết công việc thực tế.
+## Contract overview
 
-## Các điểm nội dung
-### 1. Định nghĩa hợp đồng
-Mô tả đầu vào, đầu ra và giới hạn.
+- Input: Repo ứng viên + license
+- Output: Đề xuất release / offer
+- Validation: Kiểm chứng độc lập và admission
 
-### 2. Chuẩn bị kiểm chứng
-Giải thích lỗi và điều kiện thử lại an toàn.
+## Scope
 
-### 3. Đánh giá trước khi niêm yết
-Website tĩnh chưa hỗ trợ đăng tải.
+Được tìm thấy không đồng nghĩa được thực thi; mã GitHub là ứng viên chưa được tin cậy trước khi thẩm định.
 
-## Điều hướng liên quan
-- [Khám phá Capacity](/vi/marketplace/)
-- [AI Agent](/vi/marketplace/agents/)
-- [Capacity Workflow](/vi/marketplace/workflows/)
-- [Công cụ và API](/vi/marketplace/tools/)
-- [Media và Sáng tạo](/vi/marketplace/creative/)
-- [Browser và Computer](/vi/marketplace/automation/)
-- [Dữ liệu và Nghiên cứu](/vi/marketplace/data/)
-- [Chương trình Nhà cung cấp](/vi/marketplace/providers/)
+## Example
 
-## Liên hệ
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+Đề xuất SDK nhận diện cảnh với input/output mẫu, runtime và test có thể tái lập.
 
-## Nhận diện doanh nghiệp
-- Brand: Kabin Agent
-- Pháp nhân hiển thị: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- Pháp nhân tiếng Việt: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- Tên tiếng Anh hiển thị: K’UNITY Green Technology Investment Company Limited
+## Action
 
-## Ghi chú biên tập
-- Website chỉ mang tính giới thiệu, không cho phép mua bán Capacity, cung cấp tài khoản, API production hoặc thanh toán.
-- Không công bố số liệu, đối tác, chứng nhận hoặc thành tích chưa được xác minh.
-- Bản dịch tên công ty tiếng Anh chưa được đối chiếu giấy chứng nhận đăng ký doanh nghiệp.
+Chuẩn bị hồ sơ Provider
+
+Links: /vi/provide-capacity/ and /vi/marketplace/.
+
+**Availability:** Capability type / illustrative contract, not a purchasable listing. Contact: info@kabin.cloud.

@@ -2,47 +2,26 @@
 page: platform/capacity-engine
 locale: vi
 route: /vi/platform/capacity-engine/
-status: published-informational
-content_type: website
+status: editorial-review
+narrative: one-architecture-layer
 ---
 
-# Bộ máy Capacity
+# Capability Fabric: biến công cụ thành năng lực có thể ghép.
 
-Định nghĩa năng lực bằng hợp đồng, quyền hạn và kết quả kiểm chứng được.
+Chọn Capacity cần hợp đồng, bằng chứng, deployment và quyền tương thích.
 
-## Định vị
-Khám phá mô hình vận hành giúp AI thực thi công việc đáng tin cậy.
+## Responsibility
 
-## Các điểm nội dung
-### 1. Khai báo đầu vào
-Mô tả dữ liệu và điều kiện cần.
+1. Definition + Release
+2. Offer / Quote / Evidence
+3. Đủ điều kiện mới được gọi
 
-### 2. Kiểm soát thực thi
-Theo dõi job, quyền và chuyển trạng thái.
+## Example
 
-### 3. Kiểm tra đầu ra
-Lưu artifact và biên nhận kiểm chứng.
+Toolkit có trong danh mục chỉ là ứng viên; Fabric phải kiểm chứng hợp đồng và runtime trước khi giải pháp phụ thuộc.
 
-## Điều hướng liên quan
-- [Hybrid Agentic + Routine](/vi/platform/hybrid-intelligence/)
-- [Điều phối Agent](/vi/platform/orchestration/)
-- [Đồ thị trí nhớ](/vi/platform/memory-graph/)
-- [Workflow và Routine](/vi/platform/workflows/)
-- [Năng lực Browser và Computer](/vi/platform/computer-use/)
-- [Quản trị và bảo mật](/vi/platform/governance/)
-- [Kiến trúc tham chiếu](/vi/platform/architecture/)
+## Read more
 
-## Liên hệ
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+/vi/marketplace/ · /vi/solutions/ · /vi/marketplace/
 
-## Nhận diện doanh nghiệp
-- Brand: Kabin Agent
-- Pháp nhân hiển thị: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- Pháp nhân tiếng Việt: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- Tên tiếng Anh hiển thị: K’UNITY Green Technology Investment Company Limited
-
-## Ghi chú biên tập
-- Website chỉ mang tính giới thiệu, không cho phép mua bán Capacity, cung cấp tài khoản, API production hoặc thanh toán.
-- Không công bố số liệu, đối tác, chứng nhận hoặc thành tích chưa được xác minh.
-- Bản dịch tên công ty tiếng Anh chưa được đối chiếu giấy chứng nhận đăng ký doanh nghiệp.
+Status: conceptual architecture. Contact info@kabin.cloud.
