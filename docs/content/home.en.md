@@ -7,18 +7,18 @@ brand: Kabin Agent
 legal_entity: "K’UNITY Green Technology Investment Company Limited"
 ---
 
-# Kabin Agent | Turn Intelligence into Capacity
+# Kabin Agent | Tell Kabin what you need. The ecosystem gets it done.
 
-> Kabin is an AI workforce infrastructure concept combining agentic reasoning, reliable routines, reusable capacities and operational memory.
+> An open AI Agent platform connecting people who need outcomes, builders who design solutions and providers who contribute execution capabilities. Kabin is being built to discover, compose, verify and account for real work.
 
 ## Hero
-**Kicker:** AI WORKFORCE INFRASTRUCTURE
+**Kicker:** OPEN AI AGENT ECOSYSTEM
 
-**Headline:** Intelligence is powerful. Execution changes everything.
+**Headline:** Tell Kabin what you need. The ecosystem gets it done.
 
 Kabin connects AI agents, reliable routines and reusable capabilities into one coordinated way of working. From a clear goal to a verifiable outcome.
 
-**Primary CTA:** Explore the platform → #platform
+**Primary CTA:** Find your path → #audiences
 
 **Secondary CTA:** See how it works → #how
 
@@ -173,3 +173,9 @@ Website concept preview. Product capabilities and availability are subject to de
 - Email: **info@kabin.cloud**.
 - Phone: **+84 974 744 299**.
 - Primary Platform navigation now targets `/platform/` from the homepage; final canonical assumes eventual kabin.cloud deployment.
+
+## Three-sided ecosystem gateway
+
+ONE PLATFORM · THREE PARTICIPATING SIDES What brings you to Kabin? Tell Kabin what you want done, build an idea into a reusable solution, or bring the toolkit others need. Kabin connects these roles through one open execution ecosystem. 01 / END USER I need a result. Describe the job. See how Kabin would find a solution, coordinate compatible tools, verify the result and account for usage. Use Kabin ↗ 02 / SOLUTION BUILDER I have an idea. Package a problem and its outcome into a reusable recipe. Use it yourself or, when supported, share it with others. Build a solution ↗ 03 / CAPACITY PROVIDER I create tools. Contribute a skill, plugin, SDK or GitHub toolkit with a verifiable contract so it can power many solutions. Provide capacity ↗ Kabin is the platform, not a fourth customer group. One person can act as user, builder and provider. This site explains the planned model; public transactions are not enabled.
+
+Existing technical pages are awaiting editorial alignment with this product model; route availability is not proof of content approval.
