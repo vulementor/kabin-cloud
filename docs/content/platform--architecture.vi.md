@@ -1,0 +1,48 @@
+---
+page: platform/architecture
+locale: vi
+route: /vi/platform/architecture/
+status: published-informational
+content_type: website
+---
+
+# Kiến trúc tham chiếu
+
+Khám phá ba lớp điều khiển, thực thi và tiếp nối, không phụ thuộc một model.
+
+## Định vị
+Khám phá mô hình vận hành giúp AI thực thi công việc đáng tin cậy.
+
+## Các điểm nội dung
+### 1. Lớp điều khiển
+Quản lý mục tiêu, chính sách, điều phối.
+
+### 2. Lớp thực thi
+Kết nối API, worker và engine xác định.
+
+### 3. Lớp tiếp nối
+Giữ memory, artifact và receipt.
+
+## Điều hướng liên quan
+- [Hybrid Agentic + Routine](/vi/platform/hybrid-intelligence/)
+- [Điều phối Agent](/vi/platform/orchestration/)
+- [Bộ máy Capacity](/vi/platform/capacity-engine/)
+- [Đồ thị trí nhớ](/vi/platform/memory-graph/)
+- [Workflow và Routine](/vi/platform/workflows/)
+- [Năng lực Browser và Computer](/vi/platform/computer-use/)
+- [Quản trị và bảo mật](/vi/platform/governance/)
+
+## Liên hệ
+- Email: info@kabin.cloud
+- Phone: +84 974 744 299
+
+## Nhận diện doanh nghiệp
+- Brand: Kabin Agent
+- Pháp nhân hiển thị: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
+- Pháp nhân tiếng Việt: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
+- Tên tiếng Anh hiển thị: K’UNITY Green Technology Investment Company Limited
+
+## Ghi chú biên tập
+- Website chỉ mang tính giới thiệu, không cho phép mua bán Capacity, cung cấp tài khoản, API production hoặc thanh toán.
+- Không công bố số liệu, đối tác, chứng nhận hoặc thành tích chưa được xác minh.
+- Bản dịch tên công ty tiếng Anh chưa được đối chiếu giấy chứng nhận đăng ký doanh nghiệp.

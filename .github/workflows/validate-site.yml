@@ -1,0 +1,24 @@
+name: Validate bilingual site
+on:
+  pull_request:
+    paths:
+      - '**/*.html'
+      - '**/*.css'
+      - '**/*.js'
+      - '**/*.md'
+      - 'sitemap.xml'
+      - '.github/workflows/validate-site.yml'
+  push:
+    branches: [main]
+jobs:
+  navigation-and-content:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify static navigation, locale parity, links and editorial sources
+        run: node scripts/validate-site.mjs
