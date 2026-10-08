@@ -1,37 +1,35 @@
-# Kabin Cloud website conventions
+# Kabin Cloud | Website architecture & bilingual editorial workflow
 
-## Scope
-Static bilingual marketing website. The first review is **Layout 01: Homepage only**.
+## Published layout checkpoints
+1. **Layout 01 / Homepage:** `index.html`, `vi/index.html`; editorial sources `docs/content/home.en.md` and `docs/content/home.vi.md`.
+2. **Layout 02 / Platform:** `platform/index.html`, `vi/platform/index.html`; editorial sources `docs/content/platform.en.md` and `docs/content/platform.vi.md`.
 
-## Source of truth
-- `index.html`: English homepage (default).
-- `vi/index.html`: Vietnamese homepage.
-- `docs/content/home.en.md`: English editorial review copy.
-- `docs/content/home.vi.md`: Vietnamese editorial review copy.
-- `assets/styles.css`: shared responsive design system.
-- `assets/app.js`: shared progressive enhancement, without dependencies.
+## Development contract
+- Static semantic HTML, shared vanilla JavaScript (`assets/app.js`) and CSS (`assets/styles.css`, `assets/platform.css`), no dependencies/build pipeline.
+- Default language EN; every layout has dedicated translated HTML and paired `.en.md` / `.vi.md` editorial files.
+- GitHub Pages project URL is `https://vulementor.github.io/kabin-cloud/`. Use path-relative internal links so previews work below `/kabin-cloud/`.
+- Planned final domain is `kabin.cloud`. Canonical and sitemap values reflect the final intended domain, **not** an assertion that DNS or custom-domain hosting is configured.
+- Each new layout gets its own review branch, scoped source and docs, compatibility checks and release gate. Merge to `main` updates GitHub Pages for human review.
+- Recheck the deployed English and Vietnamese URL after each merge and stop for design/content review before starting a new layout.
 
-## Review workflow
-1. Finish one layout in a dedicated review branch.
-2. Keep both HTML languages and both editorial Markdown files together.
-3. Verify links, copy parity, keyboard interaction, responsive behavior, disclaimers and SEO metadata.
-4. Request human review. Do not merge or develop the next layout until approval.
+## Naming, legal and contact
+- Brand/product: **Kabin Agent**.
+- Official user-supplied Vietnamese legal entity name: **CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY**.
+- English display translation: **K’UNITY Green Technology Investment Company Limited**; no public registry evidence has established whether this is the certificate's exact registered English name. Verify before any legal-purpose use.
+- Corporate email: **info@kabin.cloud**.
+- Corporate phone: **0974744299**; display **+84 974 744 299** in English, `tel:+84974744299` in HTML.
+- No invented office address, tax ID, commercial claim, certification, actual provider marketplace or SDK availability.
 
-## URL contract
-- English: `/` (default)
-- Vietnamese: `/vi/`
-- Canonical and hreflang metadata identify both variants.
-- Page links inside the current standalone homepage use section anchors, not unbuilt routes.
-- Future pages: `/platform/`, `/marketplace/`, `/solutions/`, `/developers/`, etc. and `/vi/...` equivalents.
+## Product disclosure
+- Marketplace and capacity contracts are **architectural vision** content until product endpoints/services are verified.
+- User-facing public website CTAs must resolve to actual pages/anchors or `mailto:` and `tel:`. No dead landing page stubs.
+- Future sections: Marketplace, Solutions, Developers, Resources, Company & Legal; each gains separately approved editorial copy and links when implemented.
 
-## Publication & integrity
-- The current page is a **concept preview**. No live Marketplace, Console, availability, pricing, transaction, real-time job execution or public SDK is asserted.
-- Keep legal entity exactly: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY.
-- Never fabricate metrics, client logos, reviews, certifications, registration numbers or contact details.
-- No frontend framework, build step or UI component library. Just HTML, CSS, and vanilla JS.
+## Local testing
+`python -m http.server 8000` from repo root and open:
+- `http://localhost:8000/`, `http://localhost:8000/vi/`
+- `http://localhost:8000/platform/`, `http://localhost:8000/vi/platform/`
 
-## Local preview
-Serve the repository root using `python -m http.server 8000`, then open `http://localhost:8000/` and `http://localhost:8000/vi/`.
-
-## Release gate
-Preview branch is for review, not production. Do not merge without explicit approval.
+## GitHub Pages review URL
+- EN: `https://vulementor.github.io/kabin-cloud/platform/`
+- VI: `https://vulementor.github.io/kabin-cloud/vi/platform/`
