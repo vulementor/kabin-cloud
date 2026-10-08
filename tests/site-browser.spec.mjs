@@ -140,3 +140,28 @@ test.describe("Four distinct Marketplace Capacity studies", () => {
     });
   }
 });
+
+test.describe("Three participant journeys", () => {
+  for (const role of ["use-kabin","build-solutions","provide-capacity"]) {
+    for (const locale of ["en","vi"]) {
+      test(role+" "+locale+" keeps the six-link header and fits mobile", async ({page}, info) => {
+        await page.setViewportSize({width:390,height:844});
+        const route=(locale==="vi"?"vi/":"")+role+"/";
+        const response=await page.goto(ROOT+route,{waitUntil:"domcontentloaded"});
+        expect(response?.status(),route).toBe(200);
+        await expect(page.locator("html")).toHaveAttribute("lang",locale);
+        await expect(page.locator(".desktop-nav a")).toHaveCount(6);
+        await expect(page.locator(".mobile-nav a")).toHaveCount(6);
+        await expect(page.locator(".role-hero h1")).toBeVisible();
+        await expect(page.locator(".role-steps li")).toHaveCount(5);
+        const overflow=await page.evaluate(()=>document.documentElement.scrollWidth-document.documentElement.clientWidth);
+        expect(overflow,route+" overflow").toBeLessThanOrEqual(2);
+        await page.screenshot({path:info.outputPath("role-"+role+"-"+locale+".png"),animations:"disabled",fullPage:true});
+        const counterpart=locale==="vi"?"en":"vi";
+        const href=await page.locator(".language-switch a[lang="+counterpart+"]").getAttribute("href");
+        const target=new URL(href,page.url()).pathname;
+        expect(target).toBe("/"+(counterpart==="vi"?"vi/":"")+role+"/");
+      });
+    }
+  }
+});
