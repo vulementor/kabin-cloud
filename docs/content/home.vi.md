@@ -165,3 +165,11 @@ Bản xem trước định hướng website. Khả năng và thời điểm cung
 - No customer numbers, product metrics, endorsements, enterprise certifications or live integrations are claimed.
 - The exact legal entity name is authoritative; business registration details are omitted until verified.
 - Review and approve this document alongside the corresponding HTML page before building the next layout.
+
+
+## Cập nhật thông tin doanh nghiệp | 08/10/2026
+- Pháp nhân tiếng Việt: **CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY**.
+- Tên hiển thị tiếng Anh: **K’UNITY Green Technology Investment Company Limited** (bản dịch, chưa đối chiếu tên đăng ký tiếng Anh trong giấy phép).
+- Email: **info@kabin.cloud**.
+- Điện thoại: **0974744299**.
+- Liên kết Platform trên homepage trỏ đến `/vi/platform/`.

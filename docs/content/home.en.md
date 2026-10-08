@@ -4,7 +4,7 @@ locale: en
 route: /
 status: layout-review
 brand: Kabin Agent
-legal_entity: "CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY"
+legal_entity: "K’UNITY Green Technology Investment Company Limited"
 ---
 
 # Kabin Agent | Turn Intelligence into Capacity
@@ -153,7 +153,7 @@ Explore how agentic reasoning and routine execution can become coordinated capac
 ## Footer / legal
 An AI workforce infrastructure vision built around agentic reasoning, reliable routines and reusable capacities.
 
-Developed and operated by CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY.
+Developed and operated by K’UNITY Green Technology Investment Company Limited.
 
 Website concept preview. Product capabilities and availability are subject to development.
 
@@ -165,3 +165,11 @@ Website concept preview. Product capabilities and availability are subject to de
 - No customer numbers, product metrics, endorsements, enterprise certifications or live integrations are claimed.
 - The exact legal entity name is authoritative; business registration details are omitted until verified.
 - Review and approve this document alongside the corresponding HTML page before building the next layout.
+
+
+## Corporate identity review update | 2026-10-08
+- English company display: **K’UNITY Green Technology Investment Company Limited** (working translation pending certificate verification).
+- Vietnamese registered name: **CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY**.
+- Email: **info@kabin.cloud**.
+- Phone: **+84 974 744 299**.
+- Primary Platform navigation now targets `/platform/` from the homepage; final canonical assumes eventual kabin.cloud deployment.
