@@ -47,7 +47,7 @@ test.describe("Desktop global menu", () => {
   test("Vietnamese CTAs stay within Vietnamese locale", async ({ page }) => {
     for (const route of ["vi/marketplace/", "vi/solutions/marketing/", "vi/company/", "vi/resources/", "vi/legal/privacy/"]) {
       await page.goto(ROOT + route, { waitUntil: "domcontentloaded" });
-      const selectors = [".header-cta", ".directory-back", ".directory-closing .button-outline-light"];
+      const selectors = [".header-cta", ".directory-back", ".directory-closing .button-outline-light, .story-cta .button-outline-light"];
       const destinations = ["/vi/contact/", "/vi/", "/vi/"];
       for (let i = 0; i < selectors.length; i++) {
         const href = await page.locator(selectors[i]).getAttribute("href");

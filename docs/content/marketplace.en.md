@@ -2,48 +2,91 @@
 page: marketplace
 locale: en
 route: /marketplace/
-status: published-informational
-content_type: website
+status: rewritten-review-pending
+narrative: AIDA + PAS
 ---
 
-# Discover Capacity
+# More AI tools won't finish the job.
 
-A marketplace vision for finding, evaluating and composing specialized execution capacity. This catalog is an editorial preview, not a live purchase service.
+Before connecting another model or automation, ask a harder question: can this capability be trusted to complete a defined step inside a real workflow?
 
-## Positioning
-A future directory of reusable capabilities for real work.
+## THE REAL PROBLEM
 
-## Content pillars
-### 1. Discover capabilities
-Browse categories by the job to be done.
+### A tool is not yet a unit of work.
+One service writes a script. Another makes images. A browser opens a publishing form. None of those pieces automatically knows the final objective, the approvals still needed, or whether the last action actually completed. More subscriptions can mean more handoffs, not fewer.
 
-### 2. Evaluate fit
-Consider permissions, inputs and verification needs.
+A usable Capacity tells you what it can do, what it needs, and how its result is checked.
 
-### 3. Compose workflows
-Plan how capacities cooperate under an agent.
+### A tool listing tells you
+- The model or service name
+- A broad description of features
+- Where to click to open it
 
-## Related navigation
-- [AI Agents](/marketplace/agents/)
-- [Workflow Capacities](/marketplace/workflows/)
-- [Tools & APIs](/marketplace/tools/)
-- [Media & Creative](/marketplace/creative/)
-- [Browser & Computer](/marketplace/automation/)
-- [Data & Research](/marketplace/data/)
-- [Publish a Capacity](/marketplace/publish/)
-- [Provider Program](/marketplace/providers/)
+### A Capacity contract should explain
+- The job and expected artifact
+- Accepted inputs and operating limits
+- Permissions, verification and failure states
 
-## Contact
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+## Find the right kind of execution.
+These are editorial categories, not live inventory. Each category points to an architecture-focused explanation.
 
-## Corporate identity
-- Brand: Kabin Agent
-- Displayed operator: K’UNITY Green Technology Investment Company Limited
-- Vietnamese registered name provided by operator: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- English display translation pending certificate verification: K’UNITY Green Technology Investment Company Limited
+### AI agents
+Interpret a goal, organize decisions, and coordinate specialists.
 
-## Editorial constraints
-- Informational website only: does not provide capacity purchasing, accounts, production API or payments.
-- No unverified performance metrics, endorsements, partnerships or certifications.
-- English company display translation remains subject to confirmation against official incorporation records.
+Link: /marketplace/agents/
+
+### Workflow routines
+Repeat known steps predictably, including checks and handoffs.
+
+Link: /marketplace/workflows/
+
+### Creative production
+Connect visual, audio and video stages to an approved brief.
+
+Link: /marketplace/creative/
+
+### Browser & computer
+Use supported interfaces when an existing system lacks a suitable API.
+
+Link: /marketplace/automation/
+
+### Tools & APIs
+Connect existing services through explicit access and contracts.
+
+Link: /marketplace/tools/
+
+### Data & research
+Build structured research and evidence-driven outputs.
+
+Link: /marketplace/data/
+
+## ILLUSTRATIVE USE CASE
+### One campaign brief. Several capacities. One accountable handoff.
+Imagine a marketing team preparing a product launch. The work spans research, storyboard, asset production and publication approval.
+
+- **Intent:** The team sets audience, channels, claims and due date.
+- **Agentic coordination:** An agent proposes steps and selects suitable capabilities.
+- **Routine execution:** Approved workflows generate assets and assemble a review packet.
+- **Human authority:** A person checks claims, visuals and distribution permissions.
+- **Evidence & memory:** Known outcomes and unknown publication states remain distinguishable.
+
+## Five questions before you run any Capacity
+1. What concrete output is produced?
+2. Which data and permissions will it access?
+3. What happens when the process fails halfway?
+4. Who authorizes consequential actions?
+5. How will the outcome be verified?
+
+## Action
+
+### Stop buying labels. Start evaluating execution.
+Tell us the outcome, the existing tools and the decisions that must remain human. We'll discuss the Capacity model, not sell an imaginary listing.
+
+Contact: info@kabin.cloud | +84 974 744 299
+
+## Compliance note
+Conceptual directory only. No capacity checkout, activation, live prices or third-party provider inventory is offered here.
+
+- Copy and bespoke visual are for editorial review; no claims of live Marketplace, SDK or production API.
+- Operator VI: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY.
+- Operator EN display: K’UNITY Green Technology Investment Company Limited (translation pending certificate verification).
