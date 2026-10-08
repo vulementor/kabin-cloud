@@ -2,47 +2,36 @@
 page: solutions
 locale: vi
 route: /vi/solutions/
-status: published-informational
-content_type: website
+status: editorial-review
+narrative: concise-role-first
 ---
 
-# Giải pháp AI Workforce
+# Kabin biến ý tưởng thành giải pháp có thể thực thi ra sao?
 
-Kết hợp Agentic và Routine để thu hẹp khoảng cách giữa công cụ, bước bàn giao và kết quả.
+Builder định nghĩa kết quả. Kabin tìm Capacity tương thích, ghép luồng thực thi, vận hành dưới quyền Core và kiểm chứng thành phẩm.
 
-## Định vị
-Dùng AI Workforce hybrid để kết nối quy trình xung quanh đội ngũ hiện hữu.
+## Kiến trúc một giải pháp
 
-## Các điểm nội dung
-### 1. Bắt đầu từ kết quả
-Chọn công việc đáng được điều phối.
+- **1. Định nghĩa kết quả:** User hoặc Builder xác định đầu ra, đầu vào và tiêu chí nghiệm thu.
+- **2. Tìm năng lực:** Ưu tiên recipe đã kiểm chứng; tìm Capacity cho phần còn thiếu.
+- **3. Ghép giải pháp:** Đối chiếu hợp đồng, bằng chứng, runtime, quyền và chi phí.
+- **4. Thực thi:** Kabin Core điều phối Agentic và Routine theo quyền đã cấp.
+- **5. Kiểm chứng:** Xác minh artifact, giữ receipt và ghi mức sử dụng.
 
-### 2. Tôn trọng trách nhiệm
-Đội ngũ vẫn chịu trách nhiệm quyết định.
+## Ví dụ và nguyên tắc
 
-### 3. Mở rộng từng bước
-Ưu tiên workflow nhỏ trước khi tự động hóa rộng.
+Ví dụ giải pháp video ngắn cần Capacity viết kịch bản, tạo giọng đọc, render và đăng bài. Builder thiết kế recipe; Provider cung cấp từng năng lực; User phê duyệt phát hành.
 
-## Điều hướng liên quan
-- [Vận hành Marketing](/vi/solutions/marketing/)
-- [Sản xuất Media](/vi/solutions/media-production/)
-- [Quy trình Mạng xã hội](/vi/solutions/social-media/)
-- [Vận hành Kinh doanh](/vi/solutions/sales/)
-- [Nghiên cứu và Phân tích](/vi/solutions/research/)
-- [Kỹ thuật Phần mềm và QA](/vi/solutions/software-engineering/)
-- [Tự động hóa Doanh nghiệp](/vi/solutions/enterprise-automation/)
+## Bắt đầu
 
-## Liên hệ
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+**Bắt đầu xây giải pháp**: build-solutions/
 
-## Nhận diện doanh nghiệp
-- Brand: Kabin Agent
-- Pháp nhân hiển thị: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- Pháp nhân tiếng Việt: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- Tên tiếng Anh hiển thị: K’UNITY Green Technology Investment Company Limited
+- Xây dựng giải pháp: /vi/build-solutions/
+- Gian hàng Capacity: /vi/marketplace/
+- Xem ví dụ video: /vi/solutions/media-production/
 
-## Ghi chú biên tập
-- Website chỉ mang tính giới thiệu, không cho phép mua bán Capacity, cung cấp tài khoản, API production hoặc thanh toán.
-- Không công bố số liệu, đối tác, chứng nhận hoặc thành tích chưa được xác minh.
-- Bản dịch tên công ty tiếng Anh chưa được đối chiếu giấy chứng nhận đăng ký doanh nghiệp.
+## Trạng thái
+
+Sơ đồ kiến trúc mục tiêu, chưa phải dịch vụ tạo giải pháp hay giao việc đang chạy.
+
+Contact: info@kabin.cloud | 0974744299.

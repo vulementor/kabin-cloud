@@ -3,60 +3,34 @@ page: build-solutions
 locale: en
 route: /build-solutions/
 status: editorial-review
-narrative: builder-journey
+narrative: concise-role-first
 ---
 
-# Your idea becomes a solution. Capacity makes it executable.
+# Have an idea? Build the solution here.
 
-Solution builders own the problem and the customer promise. Kabin is designed to help them compose capabilities from different providers into a reusable solution, whether they use it themselves or eventually share it.
+You define what the user needs. Kabin helps you find the capacities needed, combine them into a reusable recipe, and test the outcome.
 
-## A useful idea shouldn't require rebuilding every toolkit.
+## Your first solution, in four decisions
 
-A creator wants a daily infrastructure market brief. What matters is which changes to detect, how to evaluate source credibility and what the reader receives. If every builder must implement their own browser collector, parser, summarizer and delivery service, the idea never gets enough attention.
+- **01 / Who is it for?:** Name the user and the job they want finished.
+- **02 / What is delivered?:** Set an outcome, required files and acceptance criteria.
+- **03 / What does it need?:** Pick compatible capacities from Marketplace and define a recipe.
+- **04 / How is it used?:** Test on your own work, then consider publishing when supported.
 
-**Differentiation:** Builder creates the outcome recipe; Provider supplies the execution primitives.
+## Example and usage
 
-## The journey
+Example idea: a morning infrastructure brief that gathers approved sources, summarizes important changes and drafts sales implications. The Builder owns what makes the brief useful.
 
-### 1. Define the outcome
+## Next action
 
-Describe the audience, task, required artifacts and acceptance conditions.
+**Discuss my solution idea**: mailto:info@kabin.cloud?subject=Solution%20Builder
 
-### 2. Find capacities
+- Find capacities: /marketplace/
+- See solution architecture: /solutions/
+- Become a capacity creator: /developers/
 
-Evaluate skills, plugins, models, toolkits and APIs for contract fit, runtime, evidence and quote.
+## Availability
 
-### 3. Compose a recipe
+Self-service building, recipe publication and monetization are upcoming platform capabilities.
 
-Connect compatible capacities into a versioned workflow with approvals and recovery rules.
-
-### 4. Use it yourself
-
-Run for personal operations, inspect results and improve the criteria.
-
-### 5. Submit to Exchange
-
-Where supported, share an Outcome Package for others to discover; commercial terms are future work.
-
-## Illustrative example
-
-“Every morning summarize official developments near an industrial zone and explain the implications for sales.” A Builder defines the source policy, relevance rubric and final output. Kabin could combine collection, analysis, formatting and scheduled delivery capacities underneath.
-
-## Control and authority
-
-1. A precise intended user and promise
-2. Verified contract for each required Capacity
-3. Human approval for consequential effects
-4. A reusable, versioned recipe and acceptance tests
-
-## Do you have an idea worth turning into a repeatable solution?
-
-Describe the user, problem and example outcome. We can discuss an initial recipe and the capabilities it needs.
-
-Email: info@kabin.cloud · Phone: 0974744299
-
-## Product availability
-
-Self-service solution creation, publication and revenue sharing are planned ecosystem features, not services on this static site.
-
-Operating company VI: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY. English display translation: K’UNITY Green Technology Investment Company Limited (pending registration certificate verification).
+Contact: info@kabin.cloud | 0974744299.

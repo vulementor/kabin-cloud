@@ -3,60 +3,34 @@ page: use-kabin
 locale: en
 route: /use-kabin/
 status: editorial-review
-narrative: user-journey
+narrative: concise-role-first
 ---
 
-# Tell Kabin the outcome. Not the tool names.
+# Tell Kabin what you need done.
 
-A user should be able to describe work in everyday language, understand the plan and its price, and receive a verified result without personally wiring together a dozen tools.
+You shouldn't have to assemble the toolchain. Describe the result, approve the plan and review the delivered work.
 
-## You need a result, not another dashboard.
+## What the experience is designed to do
 
-Consider a thirty-second Vietnamese product video. Writing, storyboarding, narration, subtitles, rendering and publication all require different specialized capabilities. Managing accounts, files and retries across those tools is not the result you wanted.
+- **01 / Say it:** Describe your goal and upload or identify approved sources.
+- **02 / Find it:** Kabin looks for a verified solution and compatible capacities.
+- **03 / Approve it:** Review the steps, permissions, expected cost and risks.
+- **04 / Get it:** Receive checked artifacts and explicit execution evidence.
 
-**Differentiation:** The user's product is an outcome; the underlying tools are implementation details.
+## Example and usage
 
-## The journey
+Example: “Make a 30-second Vietnamese product video, include subtitles, let me review it, then publish only with my approval.”
 
-### 1. Request
+## Next action
 
-State what needs to be done, relevant source materials, quality standards and budget.
+**Send a task example**: mailto:info@kabin.cloud?subject=Kabin%20Task%20Idea
 
-### 2. Discover
+- See solution examples: /solutions/
+- How Kabin runs work: /platform/
+- Build your own solution: /build-solutions/
 
-Prefer an existing verified solution recipe, then search compatible capacities only when necessary.
+## Availability
 
-### 3. Price & approve
+This website explains the product direction; it does not accept paid orders or execute jobs directly.
 
-Present a proposed plan and estimated usage cost before an authorized execution.
-
-### 4. Execute & verify
-
-Coordinate permitted tools, check the media or data delivered, and pause for review before publishing.
-
-### 5. Account
-
-Record actual usage and attributable outcomes for a future fee and settlement mechanism.
-
-## Illustrative example
-
-“Create a 30-second 9:16 product review with a Vietnamese male voice and subtitles. Let me review the result before posting to TikTok and YouTube.” The requested deliverable is the video and its publication evidence, not a list of five apps.
-
-## Control and authority
-
-1. Specify an acceptance test
-2. Control access to files and accounts
-3. Approve cost and external publication
-4. Distinguish success from unknown state
-
-## What would you like Kabin to finish?
-
-Send us the intended deliverable and your current bottleneck. The live work-order and paid-execution experience is still being developed.
-
-Email: info@kabin.cloud · Phone: 0974744299
-
-## Product availability
-
-This is a proposed user journey, not a live task-submission, checkout or publishing interface.
-
-Operating company VI: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY. English display translation: K’UNITY Green Technology Investment Company Limited (pending registration certificate verification).
+Contact: info@kabin.cloud | 0974744299.
