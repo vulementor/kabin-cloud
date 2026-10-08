@@ -2,48 +2,72 @@
 page: marketplace/workflows
 locale: en
 route: /marketplace/workflows/
-status: published-informational
+status: rewritten-review-pending
+narrative: PAS + operational walkthrough
 content_type: website
 ---
 
-# Workflow Capacities
+# Repeat the process. Not the confusion.
 
-Package established processes as repeatable, verifiable routines.
+When the sequence is known, a Routine should handle the repetition. Its inputs, checkpoints and recovery policy must be as explicit as the steps themselves.
 
-## Positioning
-A future directory of reusable capabilities for real work.
+## MARKETPLACE / WORKFLOWS
 
-## Content pillars
-### 1. Repeatability
-Use known steps for recurring operations.
+**Positioning and availability:** Illustrative process design. These are not executable public workflows.
 
-### 2. Inputs and outputs
-Define what the workflow consumes and produces.
+## Why copying a checklist into a bot is not enough
 
-### 3. Recovery
-Preserve state to avoid duplicate actions.
+A weekly brief might download sources, build a summary and send a draft. But what if a source is missing, a report is only half-written or delivery status is unknown? A sequence without state makes the next run hard to trust. The problem is not that automation failed; it is that no one can tell precisely where it stopped.
 
-## Related navigation
-- [Discover Capacity](/marketplace/)
-- [AI Agents](/marketplace/agents/)
-- [Tools & APIs](/marketplace/tools/)
-- [Media & Creative](/marketplace/creative/)
-- [Browser & Computer](/marketplace/automation/)
-- [Data & Research](/marketplace/data/)
-- [Publish a Capacity](/marketplace/publish/)
-- [Provider Program](/marketplace/providers/)
+**Differentiation:** A reliable Routine has observable state.
 
-## Contact
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+## An auditable Routine, from start to verified finish
 
-## Corporate identity
-- Brand: Kabin Agent
-- Displayed operator: K’UNITY Green Technology Investment Company Limited
-- Vietnamese registered name provided by operator: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- English display translation pending certificate verification: K’UNITY Green Technology Investment Company Limited
+### 1. Define a trigger
 
-## Editorial constraints
-- Informational website only: does not provide capacity purchasing, accounts, production API or payments.
-- No unverified performance metrics, endorsements, partnerships or certifications.
-- English company display translation remains subject to confirmation against official incorporation records.
+Specify the approved schedule or explicit operator request.
+
+### 2. Validate prerequisites
+
+Check source freshness, credentials and required files before spending work.
+
+### 3. Produce a durable artifact
+
+Write outputs to a known location with a traceable job identity.
+
+### 4. Reconcile before repeating
+
+Inspect receipts and known outcomes before deciding to rerun.
+
+## Illustrative case: Monday's market intelligence brief.
+
+A team needs a Monday summary of important sector developments. A Routine can collect authorized sources, check their dates, prepare a structured draft and place it in a review queue. If a source fails, the job records a partial state and escalates instead of silently filling the gap. When the editor approves the brief, a separate authorized step may distribute it.
+
+## The three boundaries that make repetition safe
+
+### When does a retry create duplicates?
+
+Any external submission needs a stable operation identity and evidence of prior attempts.
+
+### When should a human intervene?
+
+Escalate missing data, uncertain results, sensitive claims or permission changes.
+
+### What counts as done?
+
+A validated artifact and the agreed completion evidence, not simply a green process exit code.
+
+## Turn one recurring task into a documented operating procedure.
+
+Describe its trigger, inputs, approval points and failure cases. We can map which steps should remain deterministic.
+
+- CTA: info@kabin.cloud
+- Next category: /marketplace/automation/
+- Telephone: 0974744299
+
+## Editorial disclaimer
+
+Example workflow only. No scheduler, automation job or public integration is activated by this page.
+
+Operating entity (VI): CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY.
+English display translation: K’UNITY Green Technology Investment Company Limited (unverified against business certificate).

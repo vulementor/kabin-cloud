@@ -2,48 +2,72 @@
 page: marketplace/automation
 locale: vi
 route: /vi/marketplace/automation/
-status: published-informational
+status: rewritten-review-pending
+narrative: PAS + trust design
 content_type: website
 ---
 
-# Browser và Computer
+# Browser là nơi làm việc, không phải macro bấm mù.
 
-Thiết kế thao tác có kiểm soát trên ứng dụng web và desktop hiện hữu.
+Một số hệ thống chưa có API phù hợp. Khi workflow đi vào giao diện web hoặc desktop, nó cần nhận diện đúng mục tiêu, quyền hạn chặt và bằng chứng hoàn tất.
 
-## Định vị
-Định hướng danh mục năng lực tái sử dụng để giải quyết công việc thực tế.
+## MARKETPLACE / BROWSER & COMPUTER
 
-## Các điểm nội dung
-### 1. Điều hướng ngữ nghĩa
-Dùng tín hiệu giao diện ổn định khi có.
+**Positioning and availability:** Chỉ giới thiệu nguyên tắc. Trang không khởi chạy hoặc điều khiển phiên browser.
 
-### 2. Thao tác có kiểm soát
-Áp dụng quyền hạn và giới hạn.
+## Một lần bấm không đồng nghĩa tác vụ đã xong
 
-### 3. Ghi nhận bằng chứng
-Lưu kết quả để đối soát.
+Hệ thống thấy nút Đăng và nhấn vào. Trang bị treo. Bài đã đăng, bị lỗi hay còn chờ? Nhấn lại có thể tạo bản trùng. Tự động hóa giao diện không biết trạng thái có thể biến timeout thông thường thành một hành động bên ngoài không thể đảo ngược.
 
-## Điều hướng liên quan
-- [Khám phá Capacity](/vi/marketplace/)
-- [AI Agent](/vi/marketplace/agents/)
-- [Capacity Workflow](/vi/marketplace/workflows/)
-- [Công cụ và API](/vi/marketplace/tools/)
-- [Media và Sáng tạo](/vi/marketplace/creative/)
-- [Dữ liệu và Nghiên cứu](/vi/marketplace/data/)
-- [Đăng tải Capacity](/vi/marketplace/publish/)
-- [Chương trình Nhà cung cấp](/vi/marketplace/providers/)
+**Differentiation:** Workflow trên giao diện phải tách quan sát, hành động và đối soát.
 
-## Liên hệ
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+## Ranh giới quyết định khi thao tác Browser
 
-## Nhận diện doanh nghiệp
-- Brand: Kabin Agent
-- Pháp nhân hiển thị: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- Pháp nhân tiếng Việt: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- Tên tiếng Anh hiển thị: K’UNITY Green Technology Investment Company Limited
+### 1. Ưu tiên API được hỗ trợ
 
-## Ghi chú biên tập
-- Website chỉ mang tính giới thiệu, không cho phép mua bán Capacity, cung cấp tài khoản, API production hoặc thanh toán.
-- Không công bố số liệu, đối tác, chứng nhận hoặc thành tích chưa được xác minh.
-- Bản dịch tên công ty tiếng Anh chưa được đối chiếu giấy chứng nhận đăng ký doanh nghiệp.
+Sử dụng thao tác có tài liệu chính thức khi dịch vụ cung cấp.
+
+### 2. Kiểm tra giao diện
+
+Buộc thao tác vào đúng trang, đúng nội dung và mục tiêu đã xác minh.
+
+### 3. Dừng ở điểm cấp quyền
+
+Cần phê duyệt rõ trước khi đăng, chi tiền hoặc xóa.
+
+### 4. Kiểm chứng kết quả
+
+Dùng receipt đã tồn tại và bằng chứng trên trang trước mọi lần thử lại.
+
+## Ví dụ minh họa: một lần gửi nội dung chưa rõ kết quả.
+
+Đội ngũ chuẩn bị bài đăng và được phê duyệt gửi. Browser mở đúng nơi, đối chiếu payload. Sau khi bấm gửi, kết nối mạng bị mất. Bước tiếp theo đúng là đối soát read-only thao tác đã thử, không nhấn Đăng thêm lần nữa. Nếu bằng chứng vẫn không đủ, quyền xử lý được chuyển lại cho người có trách nhiệm.
+
+## Vì sao không dùng bot ghi thao tác màn hình đơn thuần?
+
+### Nó được quan sát gì?
+
+Chỉ trang được phép và ngữ cảnh tác vụ rõ ràng, không đọc dữ liệu không liên quan.
+
+### Khi nào phải dừng?
+
+Nếu chưa xác minh danh tính nguồn, tài khoản đang chọn hoặc ý định hành động quan trọng.
+
+### Phục hồi thế nào?
+
+Đọc lại biên nhận bền vững và trạng thái thực tế trước khi quyết định thao tác mới.
+
+## Chỉ ra bước bàn giao mà API hiện tại chưa giải quyết được.
+
+Mô tả giao diện, tác vụ và ranh giới phê duyệt. Ta sẽ trao đổi thiết kế automation có phạm vi rõ, không giả định quyền máy tính vô hạn.
+
+- CTA: info@kabin.cloud
+- Next category: /vi/marketplace/workflows/
+- Telephone: 0974744299
+
+## Editorial disclaimer
+
+Trang thông tin không cung cấp browser worker, thu credential hay tự động xuất bản lên dịch vụ bên ngoài.
+
+Operating entity (VI): CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY.
+English display translation: K’UNITY Green Technology Investment Company Limited (unverified against business certificate).

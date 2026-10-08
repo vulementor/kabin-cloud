@@ -22,3 +22,5 @@ jobs:
           node-version: '22'
       - name: Verify static navigation, locale parity, links and editorial sources
         run: node scripts/validate-site.mjs
+      - name: Verify rewritten Marketplace category narratives and diagrams
+        run: node scripts/validate-capacity-stories.mjs

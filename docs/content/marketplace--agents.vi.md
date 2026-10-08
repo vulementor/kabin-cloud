@@ -2,48 +2,72 @@
 page: marketplace/agents
 locale: vi
 route: /vi/marketplace/agents/
-status: published-informational
+status: rewritten-review-pending
+narrative: PAS + AIDA
 content_type: website
 ---
 
-# AI Agent
+# Agent nên chịu trách nhiệm về quyết định, không ôm mọi thao tác.
 
-Khám phá các vai trò Agent chuyên biệt để lập kế hoạch, điều phối và xử lý ngoại lệ.
+Agent phát huy giá trị khi bối cảnh thay đổi. Nó cần hiểu mục tiêu, giao việc có giới hạn và dừng đúng chỗ để người có thẩm quyền quyết định.
 
-## Định vị
-Định hướng danh mục năng lực tái sử dụng để giải quyết công việc thực tế.
+## MARKETPLACE / AI AGENT
 
-## Các điểm nội dung
-### 1. Vai trò rõ ràng
-Mỗi Agent có phạm vi trách nhiệm cụ thể.
+**Positioning and availability:** Các vai trò Agent là mô hình thiết kế, chưa phải danh mục nhân sự số có thể cài đặt.
 
-### 2. Chọn công cụ
-Kết nối Agent với Capacity được cấp quyền.
+## Điều gì xảy ra khi Agent được giao làm tất cả?
 
-### 3. Con người giám sát
-Kiểm soát những quyết định quan trọng.
+Một yêu cầu chiến dịch đến với tệp khách mới và đường dẫn nguồn đã cũ. Agent tổng quát có thể lên kế hoạch, nhưng khâu sản xuất cần đầu vào xác định; xuất bản cần quyền hạn; còn tải lên thất bại phải có bằng chứng trước khi thử lại. Không tách vai trò, một chỉ dẫn mơ hồ sẽ kéo theo chuỗi giả định không được kiểm chứng.
 
-## Điều hướng liên quan
-- [Khám phá Capacity](/vi/marketplace/)
-- [Capacity Workflow](/vi/marketplace/workflows/)
-- [Công cụ và API](/vi/marketplace/tools/)
-- [Media và Sáng tạo](/vi/marketplace/creative/)
-- [Browser và Computer](/vi/marketplace/automation/)
-- [Dữ liệu và Nghiên cứu](/vi/marketplace/data/)
-- [Đăng tải Capacity](/vi/marketplace/publish/)
-- [Chương trình Nhà cung cấp](/vi/marketplace/providers/)
+**Differentiation:** Phân tách quan trọng nhất là phán đoán và thực thi.
 
-## Liên hệ
-- Email: info@kabin.cloud
-- Phone: +84 974 744 299
+## Một mục tiêu, nhiều trách nhiệm rõ ràng
 
-## Nhận diện doanh nghiệp
-- Brand: Kabin Agent
-- Pháp nhân hiển thị: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- Pháp nhân tiếng Việt: CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY
-- Tên tiếng Anh hiển thị: K’UNITY Green Technology Investment Company Limited
+### 1. Hiểu mục tiêu
 
-## Ghi chú biên tập
-- Website chỉ mang tính giới thiệu, không cho phép mua bán Capacity, cung cấp tài khoản, API production hoặc thanh toán.
-- Không công bố số liệu, đối tác, chứng nhận hoặc thành tích chưa được xác minh.
-- Bản dịch tên công ty tiếng Anh chưa được đối chiếu giấy chứng nhận đăng ký doanh nghiệp.
+Agent đối chiếu brief, tìm ngữ cảnh còn thiếu và đề xuất kế hoạch.
+
+### 2. Giao việc có giới hạn
+
+Mỗi Capacity được chọn có đầu vào, đầu ra và quyền thực thi rõ ràng.
+
+### 3. Chuyển quyết định quan trọng
+
+Người được ủy quyền duyệt tuyên bố, đối tượng và hành động xuất bản.
+
+### 4. Đối soát kết quả bất định
+
+Agent yêu cầu bằng chứng thay vì tự động gửi lại.
+
+## Ví dụ minh họa: thông điệp sản phẩm thay đổi sau bản nháp.
+
+Trưởng nhóm Marketing phát hiện yêu cầu duyệt pháp lý mới. Thay vì tạo lại và đăng tất cả, Agent điều phối có thể xác định những tuyên bố bị ảnh hưởng, phân công sửa nội dung và hình ảnh, rồi trình bộ tài nguyên cuối để phê duyệt. Các bước xuất file ổn định vẫn thuộc Routine. Đây là tình huống kiến trúc, không phải tuyên bố đang có Agent đóng gói thực hiện được ngay.
+
+## Ba câu hỏi trước khi dùng Agent
+
+### Agent mang lại phán đoán gì?
+
+Nếu mọi quy tắc và nhánh đều cố định, Routine có thể phù hợp hơn.
+
+### Agent được phép thay đổi gì?
+
+Giới hạn credential, truy cập dữ liệu và hành động đối ngoại theo quyền đã khai báo.
+
+### Agent dừng ở đâu?
+
+Chỉ định người duyệt cho tuyên bố công khai, trao đổi khách hàng và giao dịch quan trọng.
+
+## Bắt đầu từ một quyết định nhóm anh phải làm thường xuyên.
+
+Chia sẻ chỗ brief thường thay đổi, hệ thống liên quan và người phê duyệt. Ta có thể xác định vai trò Agentic phù hợp.
+
+- CTA: info@kabin.cloud
+- Next category: /vi/marketplace/workflows/
+- Telephone: 0974744299
+
+## Editorial disclaimer
+
+Trang mô tả vai trò Agent theo định hướng. Chưa cung cấp cài đặt Agent, tự động xuất bản hoặc bảo đảm triển khai thực tế.
+
+Operating entity (VI): CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY.
+English display translation: K’UNITY Green Technology Investment Company Limited (unverified against business certificate).

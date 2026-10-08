@@ -102,3 +102,41 @@ test.describe("Mobile layout and menu", () => {
     });
   }
 });
+
+
+test.describe("Four distinct Marketplace Capacity studies", () => {
+  const classes = { agents:"cap-visual-agents", workflows:"cap-visual-workflows", creative:"cap-visual-creative", automation:"cap-visual-automation" };
+  for(const [kind, visual] of Object.entries(classes)) {
+    for(const locale of ["en","vi"]) {
+      test(kind + " " + locale + " has truthful visual, localized CTA, no overflow", async ({ page }, info) => {
+        const route=(locale==="vi"?"vi/":"")+"marketplace/"+kind+"/";
+        await page.setViewportSize({width:390,height:844});
+        const response=await page.goto(ROOT+route,{waitUntil:"domcontentloaded"});
+        expect(response?.status(), route).toBe(200);
+        await expect(page.locator("html")).toHaveAttribute("lang",locale);
+        await expect(page.locator("main.cap-study")).toHaveCount(1);
+        await expect(page.locator("."+visual)).toBeVisible();
+        await expect(page.locator(".cap-problem")).toBeVisible();
+        await expect(page.locator(".cap-case")).toHaveCount(1);
+        await expect(page.locator(".cap-accordions details")).toHaveCount(3);
+        const home=await page.locator(".cap-final .button-outline-light").getAttribute("href");
+        expect(new URL(home,page.url()).pathname).toBe(locale==="vi"?"/vi/":"/");
+        const link=await page.locator(".cap-subtle-link").getAttribute("href");
+        expect(new URL(link,page.url()).pathname).toBe(locale==="vi"?"/vi/marketplace/":"/marketplace/");
+        const overflow=await page.evaluate(()=>document.documentElement.scrollWidth-document.documentElement.clientWidth);
+        expect(overflow,route+" mobile horizontal overflow").toBeLessThanOrEqual(2);
+        await page.screenshot({path:info.outputPath("capacity-"+kind+"-"+locale+"-390.png"),animations:"disabled",fullPage:true});
+      });
+    }
+  }
+  for(const kind of ["agents","workflows","creative","automation"]) {
+    test(kind+" tight mobile 320px does not overflow", async ({page}) => {
+      await page.setViewportSize({width:320,height:720});
+      const route="vi/marketplace/"+kind+"/";
+      const response=await page.goto(ROOT+route,{waitUntil:"domcontentloaded"});
+      expect(response?.status()).toBe(200);
+      const overflow=await page.evaluate(()=>document.documentElement.scrollWidth-document.documentElement.clientWidth);
+      expect(overflow,route+" 320px overflow").toBeLessThanOrEqual(2);
+    });
+  }
+});
