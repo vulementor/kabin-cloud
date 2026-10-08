@@ -52,12 +52,11 @@ for(const source of pages) {
  for(const edition of ["en","vi"])if(!fileExists("docs/content/"+slug+"."+edition+".md"))failures.push(source+": missing editorial doc "+slug+"."+edition);
  // Keep navigation, company terminology and every CTA in its selected locale.
  const footer = html.slice(html.indexOf("<footer"));
- const expectedLegalBase = "../".repeat(depth)+(vi?"vi/":"");
  for(const destination of ["privacy","terms","cookies"]) {
   const match=footer.match(new RegExp('<a href="([^"]*legal/'+destination+'/)"'));
   if(!match)failures.push(source+": missing footer legal "+destination);
   else {
-   const resolved=path.posix.normalize(path.posix.join(path.posix.dirname(source),match[1]));
+   const resolved=path.posix.normalize(path.posix.join(path.posix.dirname(source),match[1])).replace(/\/+$/,"");
    if(resolved!==(vi?"vi/":"")+"legal/"+destination)failures.push(source+": legal footer escapes locale "+destination);
   }
  }
@@ -70,7 +69,7 @@ for(const source of pages) {
    const position=html.indexOf(selector);
    const anchor=position===-1?"":html.slice(position,position+180);
    const href=anchor.match(/href="([^"]+)"/)?.[1];
-   const resolved=href?path.posix.normalize(path.posix.join(path.posix.dirname(source),href)):"";
+   const resolved=href?path.posix.normalize(path.posix.join(path.posix.dirname(source),href)).replace(/\/+$/,""):"";
    if(resolved!==target)failures.push(source+": localized CTA "+selector+" resolves "+resolved+" expected "+target);
   }
   if(!footer.includes('>Công ty</a>')||footer.includes('>Doanh nghiệp</a>'))failures.push(source+": inconsistent company footer label");
