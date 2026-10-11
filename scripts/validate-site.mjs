@@ -14,7 +14,8 @@ const walk = (directory=".") => fs.readdirSync(path.resolve(ROOT,directory), {wi
   return item.isFile()?[target.replace(/^\.\//,"")]:[];
 });
 const all = walk();
-const pages = all.filter(x=>x==="index.html"||x.endsWith("/index.html"));
+// V5 is an isolated design-preview tree with its own full-site validator.
+const pages = all.filter(x=>(x==="index.html"||x.endsWith("/index.html"))&&!x.startsWith("v5/"));
 const strip = x => x.replace(/<[^>]+>/g,"").replace(/\s+/g," ").trim();
 const attr = (tag,name) => tag.match(new RegExp('\\b'+name+'="([^"]*)"'))?.[1]??"";
 const extract = (html,cl) => {
