@@ -2,37 +2,23 @@
 page: marketplace
 locale: en
 route: /marketplace/
-status: editorial-review
-narrative: concise-role-first
+status: public-website
 ---
 
-# Find the capacity your solution needs.
+# Find the missing piece. Make the whole thing work.
 
-Browse execution capabilities by the problem they solve. Every Capacity should have clear inputs, outputs, runtime limits and verification before it can be invoked.
+Discover bounded execution units by category, input and output instead of by vague product adjectives.
 
-## Capability categories
+## Visual purpose and proof
 
-- **AI Agents:** Planning and bounded decisions (marketplace/agents/)
-- **Workflow Routines:** Repeatable jobs and checkpoints (marketplace/workflows/)
-- **Creative & Media:** Video, visuals, voice and captions (marketplace/creative/)
-- **Browser & Computer:** Authorized interface operations (marketplace/automation/)
-- **Tools & APIs:** Connectors, SDKs and services (marketplace/tools/)
-- **Data & Research:** Extract, structure and analyze data (marketplace/data/)
-
-## Example and usage
-
-Find a Capacity → check its contract → confirm compatibility → use it inside a Solution. Providers can submit a skill or toolkit for evaluation; appearing in a catalog does not grant automatic execution rights.
+Six browsable static categories: creative, agentic, browser, data, Routine and SDK/API. Search and category filters work client-side.
 
 ## Next action
 
-**Browse capacities**: #capacity-catalog
+Explore the categories or propose a Capacity as a Provider.
 
-- Provide a Capacity: /provide-capacity/
-- For tool developers: /developers/
-- How solutions work: /solutions/
+## Availability boundary
 
-## Availability
+No verified individual provider listings, purchase inventory, prices, checkout or payouts.
 
-This is a catalog of Capacity types, not live supplier stock. Prices, activation and payments are not available.
-
-Contact: info@kabin.cloud | 0974744299.
+Contact: info@kabin.cloud. Phone: 0974744299.

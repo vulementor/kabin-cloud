@@ -2,37 +2,23 @@
 page: marketplace
 locale: vi
 route: /vi/marketplace/
-status: editorial-review
-narrative: concise-role-first
+status: public-website
 ---
 
-# Tìm Capacity để giải quyết đúng phần việc.
+# Tìm đúng mảnh ghép. Hoàn thiện cả giải pháp.
 
-Duyệt năng lực theo công việc cần thực hiện. Mỗi Capacity phải có đầu vào, đầu ra, giới hạn runtime và bằng chứng kiểm chứng rõ ràng.
+Tìm Capacity theo nhóm, input và output, không qua các từ quảng cáo mơ hồ.
 
-## Danh mục năng lực
+## Visual purpose and proof
 
-- **AI Agents:** Lập kế hoạch, phán đoán có giới hạn (marketplace/agents/)
-- **Workflow & Routine:** Việc lặp lại có checkpoint (marketplace/workflows/)
-- **Media & Sáng tạo:** Video, hình ảnh, giọng đọc, phụ đề (marketplace/creative/)
-- **Browser & Computer:** Thao tác giao diện có quyền hạn (marketplace/automation/)
-- **Tools & API:** Kết nối, SDK và dịch vụ (marketplace/tools/)
-- **Dữ liệu & Nghiên cứu:** Trích xuất, cấu trúc, phân tích (marketplace/data/)
+Sáu nhóm có tìm kiếm và lọc hoạt động trên browser: Media, Agent, Browser, Data, Routine, SDK/API.
 
-## Ví dụ và nguyên tắc
+## Next action
 
-Tìm Capacity → xem hợp đồng → kiểm tra tương thích → dùng trong Solution. Provider có thể đề xuất skill hoặc toolkit để thẩm định; có tên trong danh mục không đồng nghĩa được tự chạy.
+Duyệt nhóm Capacity hoặc đề xuất một năng lực mới.
 
-## Bắt đầu
+## Availability boundary
 
-**Xem gian hàng Capacity**: #capacity-catalog
+Chưa có listing Provider riêng, giá, giỏ hàng, thanh toán hoặc payout.
 
-- Đóng góp Capacity: /vi/provide-capacity/
-- Dành cho người viết công cụ: /vi/developers/
-- Cấu trúc giải pháp: /vi/solutions/
-
-## Trạng thái
-
-Đây là danh mục loại năng lực, chưa phải kho hàng Provider đang giao dịch. Chưa có giá, kích hoạt hoặc thanh toán.
-
-Contact: info@kabin.cloud | 0974744299.
+Contact: info@kabin.cloud. Phone: 0974744299.

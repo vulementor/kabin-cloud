@@ -2,40 +2,23 @@
 page: platform
 locale: en
 route: /platform/
-status: editorial-review
-narrative: concise-role-first
+status: public-website
 ---
 
-# One platform. Three sides. Clear execution authority.
+# The intelligence to plan. The system to execute.
 
-Kabin does not replace developers or builders. It finds valid solutions, matches their capabilities and operates the authorized workflow.
+Kabin connects user intent, versioned Solution recipes and supplier capacities through the existing Kabin Core.
 
-## Intent
+## Visual purpose and proof
 
-OutcomeContract defines success, permissions and limits.
+The execution graph illustrates intent → recipe → Capability Fabric → Kabin Core → independently verified output.
 
-## Find
+## Next action
 
-Prefer verified recipe; discover required capacities.
+Explore how the architecture composes solutions.
 
-## Compose
+## Availability boundary
 
-Check contract, Quote, PolicyState, runtime and evidence.
+Agentic, Routine, Memory and Governance are enabling layers. Fabric is not a second scheduler.
 
-## Run
-
-Core owns identity, permission gates and checkpoints.
-
-## Verify
-
-Validate outputs and external receipts; do not retry unknown effects blindly.
-
-## Account
-
-Record usage; marketplace settlement remains roadmap.
-
-## Availability
-
-Illustrative platform architecture, not a claim that public marketplace checkout or paid work orders are active.
-
-Contact: info@kabin.cloud, 0974744299.
+Contact: info@kabin.cloud. Phone: 0974744299.

@@ -1,20 +1,16 @@
 import fs from "node:fs";
-const roles=["use-kabin","build-solutions","provide-capacity"];
-let pairs=0;
-for(const role of roles)for(const lang of ["en","vi"]){
- const vi=lang==="vi",page=(vi?"vi/":"")+role+"/index.html",doc="docs/content/"+role+"."+lang+".md";
- const html=fs.readFileSync(page,"utf8"),markdown=fs.readFileSync(doc,"utf8");
- for(const marker of ['class="cl-main cl-','class="cl-intro"','class="cl-main-steps','class="cl-next-list"','mailto:info@kabin.cloud','class="button button-outline-light"'])
-  if(!html.includes(marker))throw Error(page+" missing "+marker);
- if(!html.includes('hreflang="en"')||!html.includes('hreflang="vi"'))throw Error(page+": incomplete locale switch");
- if(!markdown.includes("status: editorial-review"))throw Error(doc+": incorrect editorial source status");
- const steps=(html.match(/class="cl-step"/g)||[]).length;
- if(steps!==4)throw Error(page+": expected four concrete steps; found "+steps);
- pairs++;
+const issues=[];
+for(const lang of ["en","vi"]){
+ const prefix=lang==="vi"?"vi/":"";
+ const homepage=fs.readFileSync(prefix+"index.html","utf8");
+ for(const m of ['class="role-grid"','id="demo"','class="ask-compose"',"builders/","providers/"])if(!homepage.includes(m))issues.push(prefix+"homepage missing "+m);
+ for(const role of ["builders","providers"]){
+  const p=prefix+role+"/index.html",html=fs.readFileSync(p,"utf8"),doc=fs.readFileSync("docs/content/"+role+"."+lang+".md","utf8");
+  if(!html.includes('data-page="'+role+'"')||!html.includes("hero-variant-"+role))issues.push(p+" invalid role visual");
+  if(!doc.includes("status: public-website"))issues.push(p+" missing public editorial source");
+ }
 }
-for(const locale of ["en","vi"]){
- const p=locale==="vi"?"vi/index.html":"index.html",s=fs.readFileSync(p,"utf8");
- if(!s.includes('id="audiences"'))throw Error(p+": missing 3-way choice");
- for(const role of roles)if(!s.includes('href="'+(locale==="vi"?"../vi/":"")+role+'/\"'))throw Error(p+": missing "+role);
-}
-console.log("PASS: "+pairs+" role journeys and both homepage gateways");
+const js=fs.readFileSync("assets/v5.js","utf8");
+for(const tag of ["provider-form","mailto:info@kabin.cloud","ask-run","market-grid"])if(!js.includes(tag))issues.push("Missing script "+tag);
+if(issues.length){console.error(issues.join("\n"));process.exit(1)}
+console.log("PASS: role-led main homepage and Builder/Provider journeys in both languages");

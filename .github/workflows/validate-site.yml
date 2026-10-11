@@ -22,6 +22,8 @@ jobs:
           node-version: '22'
       - name: Verify static navigation, locale parity, links and editorial sources
         run: node scripts/validate-site.mjs
+      - name: Verify promoted V5 main website, canonical domain and legacy redirects
+        run: node scripts/validate-live-v5.mjs
       - name: Verify isolated bilingual V5 microsite
         run: node v5/scripts/validate-v5.mjs
       - name: Verify three-sided Kabin product journeys

@@ -14,8 +14,11 @@ const walk = (directory=".") => fs.readdirSync(path.resolve(ROOT,directory), {wi
   return item.isFile()?[target.replace(/^\.\//,"")]:[];
 });
 const all = walk();
-// V5 is an isolated design-preview tree with its own full-site validator.
-const pages = all.filter(x=>(x==="index.html"||x.endsWith("/index.html"))&&!x.startsWith("v5/"));
+// The V5 root routes have their own verification. Legacy deeper pages retain their original contract.
+const promoted=new Set(["","platform","solutions","marketplace","builders","providers","developers","company","build-solutions","provide-capacity","use-kabin"]);
+const pages = all.filter(x=>(x==="index.html"||x.endsWith("/index.html"))
+ && !x.startsWith("v5/")
+ && !promoted.has(x.replace(/^vi\//,"").replace(/\/?index\.html$/,"").replace(/\/$/,"")));
 const strip = x => x.replace(/<[^>]+>/g,"").replace(/\s+/g," ").trim();
 const attr = (tag,name) => tag.match(new RegExp('\\b'+name+'="([^"]*)"'))?.[1]??"";
 const extract = (html,cl) => {
@@ -95,8 +98,8 @@ for(const source of pages) {
  }
  if(!html.includes('mailto:info@kabin.cloud')||!html.includes("974"))failures.push(source+": missing contact");
 }
-if(pages.length!==114)failures.push("Expected 114 HTML pages, found "+pages.length);
+if(pages.length!==96)failures.push("Expected 96 legacy HTML pages, found "+pages.length);
 const sitemap=fs.readFileSync("sitemap.xml","utf8");
-if((sitemap.match(/<url>/g)||[]).length!==114)failures.push("Sitemap entry count mismatch");
+if((sitemap.match(/<url>/g)||[]).length!==112)failures.push("Sitemap entry count mismatch");
 if(failures.length){console.error("FAIL: "+failures.length+" website contract violations\n"+failures.slice(0,80).join("\n"));process.exit(1);}
-console.log("PASS: "+pages.length+" bilingual HTML pages, "+(pages.length/2)+" route pairs, consistent 6-item header on desktop/mobile, links, docs and sitemap");
+console.log("PASS: "+pages.length+" legacy bilingual HTML pages, "+(pages.length/2)+" route pairs, consistent 6-item header on desktop/mobile, links, docs and sitemap");
