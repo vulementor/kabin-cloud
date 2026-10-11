@@ -2,31 +2,23 @@
 page: home
 locale: en
 route: /
-status: editorial-review
-narrative: concise-role-first
+status: public-website
 ---
 
-# Tell Kabin what you need. The ecosystem works together.
+# Your idea. Their capabilities. One AI to get it done.
 
-One platform connects the person who needs a result, the Builder who designs the solution, and the Provider who supplies the tools.
+The homepage is a visual introduction to a one-platform, three-sided open AI Agent ecosystem: End User, Solution Builder and Capacity Provider.
 
-## I need a result
-End User: Tell Kabin the job. Approve the plan and receive verified work.
+## Visual purpose and proof
 
-Link: /use-kabin/
+Hero shows the Kabin Core orchestration canvas. Roles explain who participates. Four-step execution flow and Capacity shelf lead into visual solution proof and a conversational concept preview.
 
-## I have a solution idea
-Solution Builder: Build a reusable recipe from community capacities.
+## Next action
 
-Link: /build-solutions/
+Use Kabin, build a solution, or contribute a Capacity.
 
-## I have a tool or skill
-Capacity Provider: Contribute a well-defined capability for many solutions.
+## Availability boundary
 
-Link: /provide-capacity/
+Concept: no live AI execution, quoting, checkout, billing or payouts.
 
-## Availability
-
-This is the product vision. Public job execution, pricing, capacity activation and payouts are not available on this informational site.
-
-Contact: info@kabin.cloud, 0974744299.
+Contact: info@kabin.cloud. Phone: 0974744299.

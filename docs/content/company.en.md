@@ -2,23 +2,23 @@
 page: company
 locale: en
 route: /company/
-status: editorial-review
+status: public-website
 ---
 
-# Kabin Agent: an open AI execution ecosystem.
+# The future of AI work belongs to its builders.
 
-Users need outcomes. Builders design solutions. Providers supply capacities. Kabin connects them.
+Kabin Agent is conceived as an open market connecting user outcomes, solution authorship and executable supplier capacity.
 
-## Platform
+## Visual purpose and proof
 
-Kabin Agent coordinates discovery and authorized work.
+Shows three parties, operating company and real contact channels. No invented usage statistics, client claims or testimonials.
 
-## Operating entity
+## Next action
 
-CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY.
+Contact the Kabin team.
 
-## Contact
+## Availability boundary
 
-info@kabin.cloud · +84 974 744 299
+Vietnamese company name provided; English display translation pending verification.
 
-Next: /company/legal-entity/ · Contact info@kabin.cloud · 0974744299.
+Contact: info@kabin.cloud. Phone: 0974744299.

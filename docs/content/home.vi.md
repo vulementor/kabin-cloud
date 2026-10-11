@@ -2,31 +2,23 @@
 page: home
 locale: vi
 route: /vi/
-status: editorial-review
-narrative: concise-role-first
+status: public-website
 ---
 
-# Nói điều anh cần. Kabin kết nối năng lực để thực hiện.
+# Ý tưởng của bạn. Năng lực cộng đồng. Một AI thực thi đến cùng.
 
-Một nền tảng kết nối người cần kết quả, người thiết kế giải pháp và nhà cung cấp công cụ thực thi.
+Trang chủ là trải nghiệm thị giác về một nền tảng AI Agent mở kết nối ba phía: End User, Solution Builder và Capacity Provider.
 
-## Tôi cần kết quả
-Người sử dụng: Nêu yêu cầu, duyệt phương án và nhận công việc đã kiểm chứng.
+## Visual purpose and proof
 
-Link: /vi/use-kabin/
+Hero minh họa Kabin Core. Ba thẻ vai trò nói rõ ai tham gia. Dòng chảy bốn bước và gian hàng Capacity dẫn đến ví dụ giải pháp cùng demo trò chuyện.
 
-## Tôi có ý tưởng
-Solution Builder: Tạo recipe tái sử dụng bằng Capacity của cộng đồng.
+## Next action
 
-Link: /vi/build-solutions/
+Sử dụng Kabin, xây Solution hoặc đóng góp Capacity.
 
-## Tôi có công cụ
-Capacity Provider: Đóng góp năng lực có hợp đồng rõ ràng cho nhiều giải pháp.
+## Availability boundary
 
-Link: /vi/provide-capacity/
+Khái niệm: không có AI execution, báo giá, checkout, billing hay payout trên site.
 
-## Giới hạn
-
-Đây là định hướng sản phẩm. Website giới thiệu chưa hỗ trợ giao việc, kích hoạt năng lực, thu phí hoặc chi trả.
-
-Contact: info@kabin.cloud, 0974744299.
+Contact: info@kabin.cloud. Phone: 0974744299.

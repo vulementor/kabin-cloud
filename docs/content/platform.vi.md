@@ -2,40 +2,23 @@
 page: platform
 locale: vi
 route: /vi/platform/
-status: editorial-review
-narrative: concise-role-first
+status: public-website
 ---
 
-# Một nền tảng. Ba phía. Quyền thực thi rõ ràng.
+# Trí tuệ để lập kế hoạch. Hệ thống để thực thi.
 
-Kabin không thay Builder hay Developer. Nó tìm giải pháp hợp lệ, ghép Capacity và vận hành workflow đã được cấp quyền.
+Kabin kết nối ý định người dùng, recipe của Builder và Capacity của Provider trong Kabin Core hiện hữu.
 
-## Intent
+## Visual purpose and proof
 
-OutcomeContract xác định kết quả, quyền và giới hạn.
+Sơ đồ minh họa intent → recipe → Capability Fabric → Kabin Core → kết quả có chứng cứ.
 
-## Tìm
+## Next action
 
-Ưu tiên recipe đã kiểm chứng; bổ sung Capacity khi cần.
+Xem cách ghép Solution.
 
-## Ghép
+## Availability boundary
 
-Kiểm tra contract, Quote, PolicyState, runtime và bằng chứng.
+Agentic, Routine, Memory, Governance là lớp hỗ trợ. Fabric không phải scheduler thứ hai.
 
-## Chạy
-
-Core nắm job identity, quyền hạn và checkpoint.
-
-## Kiểm chứng
-
-Đối chiếu đầu ra/receipt; không thử lại mù khi chưa rõ.
-
-## Đối soát
-
-Ghi mức sử dụng; thanh quyết toán nằm trong lộ trình.
-
-## Giới hạn
-
-Kiến trúc minh họa, không phải tuyên bố Marketplace hay work order trả phí đã chạy công khai.
-
-Contact: info@kabin.cloud, 0974744299.
+Contact: info@kabin.cloud. Phone: 0974744299.

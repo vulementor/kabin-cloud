@@ -2,23 +2,23 @@
 page: company
 locale: vi
 route: /vi/company/
-status: editorial-review
+status: public-website
 ---
 
-# Kabin Agent: hệ sinh thái AI Agent mở.
+# Tương lai công việc AI thuộc về cộng đồng xây dựng.
 
-User cần kết quả, Builder thiết kế giải pháp, Provider đóng góp Capacity. Kabin kết nối cả ba.
+Kabin Agent phát triển thành hệ sinh thái mở kết nối nhu cầu thật, người dựng Solution và bên tạo Capacity.
 
-## Nền tảng
+## Visual purpose and proof
 
-Kabin Agent điều phối tìm kiếm và công việc có cấp quyền.
+Ba phía, pháp nhân và kênh liên hệ thực. Không bịa chỉ số người dùng, khách hàng hay review.
 
-## Pháp nhân
+## Next action
 
-CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ CÔNG NGHỆ XANH K’UNITY.
+Liên hệ đội ngũ Kabin.
 
-## Liên hệ
+## Availability boundary
 
-info@kabin.cloud · 0974744299
+Tên pháp nhân tiếng Việt được cung cấp; bản dịch tiếng Anh chờ đối chiếu giấy phép.
 
-Next: /vi/company/legal-entity/ · Contact info@kabin.cloud · 0974744299.
+Contact: info@kabin.cloud. Phone: 0974744299.

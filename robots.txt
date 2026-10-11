@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://vulementor.github.io/kabin-cloud/sitemap.xml
+Disallow: /v5/
+Sitemap: https://kabin.cloud/sitemap.xml

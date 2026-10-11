@@ -2,36 +2,23 @@
 page: solutions
 locale: vi
 route: /vi/solutions/
-status: editorial-review
-narrative: concise-role-first
+status: public-website
 ---
 
-# Kabin biến ý tưởng thành giải pháp có thể thực thi ra sao?
+# Giải pháp là kết quả. Không phải một túi công cụ.
 
-Builder định nghĩa kết quả. Kabin tìm Capacity tương thích, ghép luồng thực thi, vận hành dưới quyền Core và kiểm chứng thành phẩm.
+Builder định nghĩa nghiệm thu. Kabin ưu tiên ExecutionRecipe đã kiểm chứng và tìm Capacity còn thiếu.
 
-## Kiến trúc một giải pháp
+## Visual purpose and proof
 
-- **1. Định nghĩa kết quả:** User hoặc Builder xác định đầu ra, đầu vào và tiêu chí nghiệm thu.
-- **2. Tìm năng lực:** Ưu tiên recipe đã kiểm chứng; tìm Capacity cho phần còn thiếu.
-- **3. Ghép giải pháp:** Đối chiếu hợp đồng, bằng chứng, runtime, quyền và chi phí.
-- **4. Thực thi:** Kabin Core điều phối Agentic và Routine theo quyền đã cấp.
-- **5. Kiểm chứng:** Xác minh artifact, giữ receipt và ghi mức sử dụng.
+Ba minh họa tương tác: video ngắn, bản tin nghiên cứu, tác vụ browser. Mỗi lựa chọn đổi input, Capacity và thành phẩm.
 
-## Ví dụ và nguyên tắc
+## Next action
 
-Ví dụ giải pháp video ngắn cần Capacity viết kịch bản, tạo giọng đọc, render và đăng bài. Builder thiết kế recipe; Provider cung cấp từng năng lực; User phê duyệt phát hành.
+Bắt đầu xây Solution.
 
-## Bắt đầu
+## Availability boundary
 
-**Bắt đầu xây giải pháp**: build-solutions/
+Sơ đồ kiến trúc, chưa thực thi Solution trực tiếp.
 
-- Xây dựng giải pháp: /vi/build-solutions/
-- Gian hàng Capacity: /vi/marketplace/
-- Xem ví dụ video: /vi/solutions/media-production/
-
-## Trạng thái
-
-Sơ đồ kiến trúc mục tiêu, chưa phải dịch vụ tạo giải pháp hay giao việc đang chạy.
-
-Contact: info@kabin.cloud | 0974744299.
+Contact: info@kabin.cloud. Phone: 0974744299.
