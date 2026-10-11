@@ -53,5 +53,18 @@ for(const lang of ["en","vi"])for(const route of ROUTES){
  const p="v5/"+(lang==="vi"?"vi/":"")+route+"index.html";
  if(!fs.readFileSync(p,"utf8").includes('<meta name="robots" content="noindex,follow">'))failures.push("Old V5 duplicate indexed "+p);
 }
+
+// Favicon release contract: one consistent Kabin mint star, never the old K.
+// New filenames bust browser favicon cache on all 16 main and 16 /v5/ routes.
+const starFile="assets/kabin-star.svg",starSVG=fs.readFileSync(starFile,"utf8");
+if(!starSVG.includes('stroke="#baffdc"')||!starSVG.includes('fill="#101a38"'))failures.push("Favicon must match Kabin star palette");
+for(const p of ["assets/mark.svg","assets/favicon.svg","v5/assets/mark.svg","v5/assets/kabin-star.svg","favicon.svg"])
+ if(fs.readFileSync(p,"utf8")!==starSVG)failures.push("Favicon visual divergence "+p);
+for(const pfx of ["","v5/"])for(const lang of ["en","vi"])for(const route of ROUTES){
+ const p=pfx+(lang==="vi"?"vi/":"")+route+"index.html",html=fs.readFileSync(p,"utf8");
+ if(!/<link rel="icon" href="[^"]*assets\/kabin-star\.svg" type="image\/svg\+xml">/.test(html))failures.push("Old/cached favicon link "+p);
+}
+if(!fs.readFileSync("404.html","utf8").includes("/assets/kabin-star.svg"))failures.push("404 icon not updated");
+
 if(failures.length){console.error("FAIL root launch: "+failures.length+"\n"+failures.slice(0,80).join("\n"));process.exit(1)}
 console.log("PASS: 16 promoted EN/VI routes, 7 distinct inner hero concepts, aliases, assets, CNAME, sitemap, archive noindex");
