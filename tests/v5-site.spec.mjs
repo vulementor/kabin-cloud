@@ -64,3 +64,53 @@ test.describe("Kabin V5 experience",()=>{
   });
  }
 });
+
+
+test.describe("V5.1 distinct hero art direction",()=>{
+ const inner=["platform","solutions","marketplace","builders","providers","developers","company"];
+ for(const lang of ["en","vi"]){
+  test("Seven differentiated "+lang+" hero illustrations",async({page},info)=>{
+   await page.setViewportSize({width:1440,height:900});
+   for(const slug of inner){
+    const location=base+"v5/"+(lang==="vi"?"vi/":"")+slug+"/";
+    const res=await page.goto(location,{waitUntil:"domcontentloaded"});
+    expect(res?.status()).toBe(200);
+    const hero=page.locator(".hero");
+    await expect(hero).toHaveClass(new RegExp("hero-variant-"+slug));
+    await expect(page.locator(".hv-"+slug)).toBeVisible();
+    await expect(page.locator(".engine-visual")).toHaveCount(0);
+    const bounds=await page.evaluate(()=>{
+     const text=document.querySelector(".hero-copy").getBoundingClientRect();
+     const art=document.querySelector(".hero .hv").getBoundingClientRect();
+     return {gap:art.left-text.right,overflow:document.documentElement.scrollWidth-document.documentElement.clientWidth,artHeight:art.height};
+    });
+    expect(bounds.gap,lang+"/"+slug+" copy must not overlap hero art").toBeGreaterThanOrEqual(-1);
+    expect(bounds.overflow,lang+"/"+slug+" overflow").toBeLessThanOrEqual(2);
+    expect(bounds.artHeight).toBeGreaterThan(250);
+    await page.screenshot({path:info.outputPath("hero-"+lang+"-"+slug+"-desktop.png"),animations:"disabled"});
+   }
+  });
+  test("Seven differentiated "+lang+" mobile hero layouts",async({page},info)=>{
+   await page.setViewportSize({width:390,height:844});
+   for(const slug of inner){
+    const location=base+"v5/"+(lang==="vi"?"vi/":"")+slug+"/";
+    const res=await page.goto(location,{waitUntil:"domcontentloaded"});
+    expect(res?.status()).toBe(200);
+    await expect(page.locator(".hv-"+slug)).toBeVisible();
+    const bounds=await page.evaluate(()=>{
+      const text=document.querySelector(".hero-copy").getBoundingClientRect();
+      const art=document.querySelector(".hero .hv").getBoundingClientRect();
+      return {verticalGap:art.top-text.bottom,overflow:document.documentElement.scrollWidth-document.documentElement.clientWidth};
+    });
+    expect(bounds.verticalGap,lang+"/"+slug+" hero must stack copy before art").toBeGreaterThanOrEqual(-1);
+    expect(bounds.overflow,lang+"/"+slug+" mobile overflow").toBeLessThanOrEqual(2);
+    await page.screenshot({path:info.outputPath("hero-"+lang+"-"+slug+"-mobile.png"),animations:"disabled"});
+   }
+  });
+ }
+ test("Homepage retains the sole Kabin Core orbital hero",async({page})=>{
+  await page.goto(base+"v5/vi/");
+  await expect(page.locator(".homehero .engine-visual")).toBeVisible();
+  await expect(page.locator(".homehero .hv")).toHaveCount(0);
+ });
+});

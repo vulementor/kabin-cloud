@@ -33,5 +33,18 @@ for(const s of ["market-query","ask-run","solution-task","provider-form","lang-s
 const css=fs.readFileSync(base+"assets/v5.css","utf8");
 for(const s of ["prefers-reduced-motion","@media(max-width:480px)","engine-visual","market-grid"])if(!css.includes(s))failures.push("Missing visual "+s);
 if(checked!==16)failures.push("Expected 16 pages, got "+checked);
+
+const heroKinds=["platform","solutions","marketplace","builders","providers","developers","company"];
+for(const lang of ["en","vi"]){
+ for(const kind of heroKinds){
+  const p=base+(lang==="vi"?"vi/":"")+kind+"/index.html",html=fs.readFileSync(p,"utf8");
+  if(!html.includes('class="hv hv-'+kind+'"'))failures.push(p+" missing semantic hero diagram "+kind);
+  if(!html.includes("hero-variant-"+kind))failures.push(p+" missing page-level hero style");
+  if(html.includes('class="engine-visual"'))failures.push(p+" duplicated homepage orbital");
+ }
+ const home=fs.readFileSync(base+(lang==="vi"?"vi/":"")+"index.html","utf8");
+ if(!home.includes('class="engine-visual"'))failures.push("Homepage should retain the orbital identity");
+}
+
 if(failures.length){console.error("FAIL V5: "+failures.length+" violations\n"+failures.slice(0,100).join("\n"));process.exit(1)}
 console.log("PASS V5: "+checked+" HTML routes (8 English, 8 Vietnamese), local paths, canonical/hreflang, bilingual copy, assets and interactive contract.");
